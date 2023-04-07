@@ -24,7 +24,7 @@ export default function Contact() {
                     {
                         buttons.map(({ link, Icon }, i) => (
                             <li key={i}>
-                                <a href={link} className="button contact__link" secondary="true" target="_blank">
+                                <a href={link} className="button contact__link" secondary="true" target="_blank" rel="noreferrer">
                                     <Icon />
                                 </a>
                             </li>
