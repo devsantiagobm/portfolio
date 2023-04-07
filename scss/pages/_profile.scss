@@ -1,0 +1,47 @@
+@use "../abstracts";
+
+.profile{
+    padding: var(--pages-padding);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    &__column{
+        position: relative;
+
+        &:nth-child(2){
+            @include abstracts.flexbox(column, 48px);
+            margin: 0 0 5vh;
+        }
+    }
+
+    &__title{
+        position: sticky;
+        top: 32px;
+    }
+
+    &__item{
+        @include abstracts.flexbox(column, 10px);
+    }
+
+    &__subtitle{
+        font-size: 1.3rem;
+        font-weight: var(--font-medium);
+    }
+
+    &__asterisk{
+        color: var(--primary);
+        margin: 0 0 8px;
+    }
+
+    &__paragraph{
+        white-space: pre-wrap;
+    }
+}
+
+
+@mixin profile-872px{
+    .profile{
+        row-gap: 48px;
+        grid-template-columns: 1fr;
+    }
+}

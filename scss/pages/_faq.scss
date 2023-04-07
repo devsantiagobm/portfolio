@@ -1,0 +1,49 @@
+@use "../abstracts";
+
+.faq {
+    padding: var(--pages-padding);
+
+    &__questions {
+        margin: 40px 0 0;
+        @include abstracts.flexbox(column, 32px);
+    }
+
+    &__ask {
+        @include abstracts.flexbox(row, 16px, space-between, center);
+        font-size: 1.5rem;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    &__question {
+        overflow: hidden;
+        transition: height .3s ease;
+        border-bottom: solid 1px var(--color);
+        padding: 0 0 24px;
+        @include abstracts.flexbox(column, 16px);
+    }
+
+    &__subtitle {
+        font-weight: var(--font-medium);
+        font-size: 1.5rem;
+    }
+
+    &__arrow {
+        overflow: hidden;
+        max-height: 100%;
+        font-size: 2rem;
+        transform: rotate(-90deg);
+        transition: transform .3s ease;
+        min-width: 32px;
+        min-height: 32px;
+
+        &--open {
+            transform: rotate(-180deg);
+
+        }
+    }
+
+    &__answer {
+        white-space: pre-wrap;
+    }
+}

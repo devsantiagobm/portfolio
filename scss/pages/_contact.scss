@@ -1,0 +1,177 @@
+@use "../abstracts";
+
+.contact {
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    
+    &__column {
+        height: 100%;
+        padding:  var(--sections-padding);
+        
+        &:nth-child(1) {
+            @include abstracts.flexbox(column, 8px, center);
+        }
+        
+        &:nth-child(2) {
+            @include abstracts.flexbox(column, 32px, center, center);
+            background-color: var(--primary-soft);
+
+            & > *{
+                transform: translateY(-16px)
+            }
+        }
+    }
+
+    &__list {
+        @include abstracts.flexbox(row, 16px, flex-start, center);
+        margin: 16px 0 0;
+    }
+
+    &__link {
+        aspect-ratio: 1;
+        border-radius: 50%;
+        padding: 16px !important;
+        font-size: 1.2rem !important; 
+        // THIS ELEMENT HAS ANOTHER CLASS NAMED .link. It adds others styles like bg and color, but also changes the padding and font-size.
+        // This way i can change the padding and font-size
+    }
+
+    &__input {
+        width: 100%;
+        border-bottom: solid 1px var(--color-fourth);
+        font-size: .9rem;
+        padding: 4px 0;
+        cursor: text;
+        transition: border-bottom-color .2s ease;
+        font-weight: var(--font-medium);
+
+        &:focus {
+            border-bottom-color: var(--color);
+        }
+
+        &::placeholder, &--message:empty::before {
+            font-weight: var(--font-regular);
+            font-size: .8rem;
+            color: var(--color-fourth);
+        }
+
+        &--message {
+            position: relative;
+
+            &:empty::before {
+                content: "Let's work on the best product!";
+            }
+        }
+    }
+
+    &__submit {
+        width: 100%;
+        margin: 8px 0 0;
+    }
+
+
+    &__advice {
+        height: 100%;
+        font-size: 1.2rem;
+        text-align: center;
+        max-width: 25ch;
+        font-family: var(--title-font);
+        @include abstracts.center();
+        text-transform: capitalize;
+    }
+
+    &__input-box {
+        @include abstracts.flexbox(column, 6px);
+    }
+
+    &__label {
+        @include abstracts.flexbox(row, 2px, flex-start, center);
+        text-transform: capitalize;
+        font-size: .8rem;
+    }
+
+    &__form {
+        width: 100%;
+        max-width: 300px;
+        @include abstracts.flexbox(column, 12px);
+
+        &--shaken {
+            -webkit-animation: shake-horizontal .8s ease-in-out both;
+            animation: shake-horizontal .8s ease-in-out both;
+            @include abstracts.shake();
+        }
+
+    }
+
+    &__error{
+        margin: 8px 0 0;
+        color: rgb(230, 24, 24);
+        font-size: .9rem;
+        text-align: center;
+    }
+
+    &__sent{
+        @include abstracts.flexbox(column, 16px, center, center);
+        max-width: 300px;
+        &-check{
+            aspect-ratio: 1;
+            font-size: 3rem;
+            background-color: var(--primary);
+            border-radius: 50%;
+            padding: 8px;
+            color: var(--primary-soft);
+        }
+
+        &-advice{
+            font-size: 1.2rem;
+            font-weight: var(--font-medium);
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        &-subadvice{
+            font-size: .9rem;
+            color: var(--color-fourth);
+            text-align: center; 
+        }
+
+        &-button{
+            width: 100%;
+        }
+    }
+
+    &__loader{
+        width: 100%;
+        margin: 12px 0 0;
+        @include abstracts.center();
+    }
+
+}
+
+
+@mixin contact-872px{
+    .contact{
+        grid-template-columns: 1fr;
+
+        &__column {
+            min-height: 50vh;
+    
+            &:nth-child(1) {
+                padding: 48px var(--sections-padding);
+            }
+            
+            &:nth-child(2) {
+                padding: 64px var(--sections-padding);
+                gap: 80px;
+
+                
+            & > *{
+                transform: translateY(0)
+            }
+            }
+        }
+    
+    }
+}

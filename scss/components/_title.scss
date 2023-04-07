@@ -1,0 +1,18 @@
+.title{
+    font-size: 2rem;
+    font-weight: var(--font-bold);
+    font-weight: 800;
+    word-spacing: 4px;
+}
+
+.title[center="true"]{
+    text-align: center;
+}
+
+.title[big="true"]{
+    font-size: 3rem;
+}
+
+.title[small="true"]{
+    font-size: 1.5rem;
+}

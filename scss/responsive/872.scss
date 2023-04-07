@@ -1,0 +1,15 @@
+@use '../base';
+@use '../pages';
+@use '../layout';
+@use '../components';
+
+
+@media (max-width: 872px){
+    @include layout.header-872px();
+    @include pages.hero-872px();
+    @include pages.projects-872px();
+    @include pages.technologies-872px();
+    @include pages.profile-872px();
+    @include pages.contact-872px();
+    @include components.auto-carousel-872px();
+}

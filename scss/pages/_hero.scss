@@ -1,0 +1,223 @@
+@use "../abstracts";
+
+.hero {
+    min-height: 110vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 45%;
+
+    &__title-first-line {
+        @include abstracts.flexbox(row, 16px, flex-start, center);
+    }
+
+    &__main {
+        height: 100%;
+        display: grid;
+        grid-template-rows: 1fr auto;
+    }
+
+
+    &__information {
+        padding: 0 var(--sections-padding) 0 var(--sections-padding);
+        @include abstracts.flexbox(column, 24px, center);
+    }
+
+    &__title {
+        font-size: 4rem;
+        font-weight: var(--font-bold);
+        text-transform: capitalize;
+        font-family: var(--title-font);
+    }
+
+    &__description {
+        margin: 0 0 16px;
+        max-width: 40ch;
+    }
+
+    &__job {
+        user-select: none;
+        color: var(--bg);
+        font-size: 1rem;
+        background-color: var(--primary);
+        font-weight: var(--font-regular);
+        padding: 6px 24px;
+        border-radius: 250px;
+    }
+
+    &__buttons {
+        @include abstracts.flexbox(row, 0px, flex-start, center);
+    }
+
+
+    &__arrow {
+        font-size: .9rem;
+        transition: transform .2s ease;
+    }
+
+    &__resume:hover &__arrow {
+
+        transform: translateY(-1px) translateX(1px);
+    }
+
+    &__about {
+        background-color: var(--color-secondary);
+        padding: 48px var(--sections-padding) 48px var(--sections-padding);
+        color: var(--bg-secondary);
+        display: grid;
+        align-items: center;
+        grid-template-columns: 2fr 3fr;
+        gap: 48px;
+
+        &-title {
+            font-weight: var(--font-medium);
+        }
+
+        &-link {
+            display: inline-block;
+            margin: 8px 0 0;
+        }
+
+        &-column {
+            &--list {
+                @include abstracts.flexbox(column, 4px);
+            }
+        }
+
+        &-item {
+            padding: 6px 0;
+            font-size: .9rem;
+            border-bottom: solid 1px var(--color-third);
+            @include abstracts.flexbox(row, 0, space-between);
+
+            &>span:last-child {
+                font-weight: var(--font-medium);
+            }
+        }
+    }
+
+    &__image {
+        height: 100%;
+        position: relative;
+        background-color: var(--primary-soft);
+        @include abstracts.flexbox(column, 0, space-between, center);
+
+        &-title {
+            height: 100%;
+            font-size: 1.2rem;
+            text-align: center;
+            max-width: 25ch;
+            font-family: var(--title-font);
+            @include abstracts.center();
+            text-transform: capitalize;
+        }
+    }
+
+    &__portrait {
+        min-width: 0;
+        width: 100%;
+        max-width: 450px;
+    }
+
+    &__tech {
+        position: absolute;
+        inset: 0;
+    }
+
+    &__box {
+        @include abstracts.flexbox(column, 0, flex-end);
+        height: 100%;
+    }
+
+
+    &__ball {
+        --translate: -70vh; //The animation uses this variable to translate the element. In mobile this will change 
+        @include abstracts.center();
+        color: var(--color);
+        --x: 5vw;
+        --duration: 7s;
+        background-color: white;
+        animation: go-up var(--duration) linear both;
+        aspect-ratio: 1;
+        width: 64px;
+        overflow: hidden;
+        border-radius: 50%;
+        position: absolute;
+        left: var(--sections-padding);
+        font-size: 2rem;
+        box-shadow: 0 0 15px -8px #110d0a;
+
+        &--second{
+            left: unset;
+            right: var(--sections-padding);
+        }
+
+        @include abstracts.go-up();
+
+
+    }
+}
+
+
+@mixin hero-1000px{
+    .hero{
+        min-height: 100vh;
+        grid-template-columns: 1fr 1fr;
+
+        &__title{
+            font-size: 3.5rem;
+        }
+
+        &__job{
+            display: none;
+        }
+
+        &__portrait{
+            max-width: 400px;
+        }
+    }
+}
+
+
+@mixin hero-872px{
+    .hero{
+        grid-template-columns: 1fr;
+        
+        &__information{
+            padding: 10vh var(--sections-padding);
+        }
+
+
+        &__image{
+            padding: 10vh 0 0;
+        }
+
+        &__portrait{
+            max-width: 100%;
+            margin: 5vh auto 0;
+        }
+
+
+        &__ball{
+            width: 56px;
+        }
+
+    }
+}
+
+@mixin hero-572px{
+    .hero{
+        &__about{
+            grid-template-columns: 1fr;
+        }
+
+        &__about-column:nth-child(1){
+            display: none;
+        }
+
+        &__ball{
+            --translate: -35vh;
+            width: 48px;
+            font-size: 1.5rem;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@use '../base';
+@use '../pages';
+@use '../layout';
+@use '../components';
+
+
+@media (max-width: 572px){
+    @include pages.hero-572px();
+    @include pages.projects-572px();
+    @include components.auto-carrousel-572px();
+}

@@ -1,0 +1,10 @@
+@use '../base';
+@use '../pages';
+@use '../layout';
+@use '../components';
+
+
+@media (max-width: 1000px){
+    @include base.base-1000px();
+    @include pages.hero-1000px();
+}

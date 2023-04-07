@@ -1,0 +1,84 @@
+@use "../abstracts";
+
+body {
+    scroll-behavior: smooth;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+
+.content {
+
+    --primary: #fe481c;
+    --primary-hover: hsl(12, 99%, 49%);
+    --primary-soft: #ded1c1;
+    --color: #110d0a;
+    --color-secondary: #262626;
+    --color-third: hsl(0, 0%, 25%);
+    --color-fourth: hsl(0, 0%, 35%);
+    --bg: #ffffff;
+    --bg-secondary: #f3f3f3;
+    --bg-third: hsl(0, 0%, 80%);
+
+
+    --main-font: "Manrope", sans-serif;
+    --title-font: "Poppins", sans-serif;
+
+    --font-light: 300;
+    --font-regular: 400;
+    --font-semi-bold: 500;
+    --font-medium: 600;
+    --font-bold: 700;
+
+    font-family: var(--main-font);
+    font-size: 16px;
+    background-color: var(--bg);
+    color: var(--color);
+
+    --sections-padding: 7vw;
+
+    --pages-padding: 32px var(--sections-padding) 12vh;
+}
+
+
+.content[dark="true"] {
+    --bg: #000;
+    --color: #fff;
+}
+
+.bold {
+    display: inline;
+    font-weight: var(--font-medium);
+
+    &--title {
+        font-weight: var(--font-medium);
+    }
+}
+
+
+::selection {
+    background-color: var(--color-third);
+    color: var(--bg);
+}
+
+.subtitle {
+    font-size: 1rem;
+    font-weight: var(--font-medium);
+}
+
+.box-sticky {
+    position: sticky;
+    top: 5vh;
+    @include abstracts.flexbox(column, 4px);
+}
+
+.required {
+    color: red;
+}
+
+
+@mixin base-1000px{
+    .content{
+        --sections-padding: 5vw;
+    }
+}

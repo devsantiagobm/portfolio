@@ -1,0 +1,39 @@
+@use "../abstracts";
+
+@mixin hover-button($bg, $color: inherit){
+    @media (hover:hover){
+        &:hover {
+            background-color: $bg;
+            color: $color;
+        }
+    }
+}
+
+.button {
+    @include abstracts.flexbox(row, 4px, center, center);
+    padding: 10px 24px;
+    font-family: var(--main-font);
+    font-size: .8rem;
+    font-weight:  var(--font-medium);
+    cursor: pointer;
+    background-color: var(--primary);
+    color: var(--bg);
+    transition: background-color .3s ease, color .3s ease;
+    @include hover-button(var(--primary-hover), var(--bg));
+    user-select: none;
+    
+}
+
+
+.button[secondary="true"] {
+    @include hover-button(var(--color), var(--bg));
+    border: 1px solid var(--color);
+    background-color: transparent;
+    color: var(--color);
+}
+
+.button[third="true"] {
+    @include hover-button(var(--bg), var(--color));
+    background-color: transparent;
+    color: var(--color);
+}
