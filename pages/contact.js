@@ -5,7 +5,7 @@ import { BsWhatsapp as WhatsappIcon } from "react-icons/bs"
 import emailjs from '@emailjs/browser';
 import { useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion"
-import useValidate from "hooks/useValidate";
+import validate from "helpers/validate.helper";
 import { BiCheck as CheckIcon } from "react-icons/bi"
 import Loader from "components/Loader";
 
@@ -89,7 +89,7 @@ function Form({ setFormSent }) {
 
     function handleSubmit(e) {
         e.preventDefault()
-        const fieldsCorrect = useValidate(e.currentTarget)
+        const fieldsCorrect = validate(e.currentTarget)
 
         if (!fieldsCorrect) {
             shakeForm()

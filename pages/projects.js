@@ -62,11 +62,11 @@ function Modal({ selected, setSelected, selectedId }) {
 
 
                     <div className="projects__modal-links" >
-                        <a className="button" href={"https://github.com/santiago220506/" + github} secondary="true" target={"_blank"}>
+                        <a className="button" href={"https://github.com/santiago220506/" + github} secondary="true" target={"_blank"} without rel="noreferrer">
                             <GithubIcon></GithubIcon>
                             Github
                         </a>
-                        <a className="button" href={link} secondary="true" target={"_blank"}>
+                        <a className="button" href={link} secondary="true" target={"_blank"} without rel="noreferrer">
                             <LinkIcon></LinkIcon>
                             Visit</a>
                     </div>

@@ -102,14 +102,13 @@ function Ball({ type }) {
     const techLength = technologies.length
 
     useEffect(() => {
-        const interval = setInterval(() => setNewBall(), 10000)
+        const interval = setInterval(() => {
+            const randomIndex = Math.floor(Math.random() * ((techLength - 1) - 0 + 1) + 0)
+            setBalls([technologies[randomIndex]])
+        }, 10000)
+
         return () => clearInterval(interval)
     }, [])
-
-    function setNewBall() {
-        const randomIndex = Math.floor(Math.random() * ((techLength - 1) - 0 + 1) + 0)
-        setBalls([technologies[randomIndex]])
-    }
 
     return balls.map(({ Icon, color }) => (
         <span
