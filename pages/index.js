@@ -76,7 +76,7 @@ export default function Home() {
                 </ShowIn>
                 <picture className="hero__picture">
                     <ShowIn>
-                        <Image src="/person.png" 
+                        <Image src="/my-image.png" 
                         alt="Santiago's image" width={500} height={600} className="hero__portrait" />
                     </ShowIn>
                 </picture>
