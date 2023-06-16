@@ -35,7 +35,7 @@ export default function Home() {
                         <Link href="/profile" className="button">
                             {t("index.first_button")}
                         </Link>
-                        <a href={t("index.resume_link")} className="button hero__resume" third="true" target="_blank">
+                        <a href={t("index.resume_link")} className="button hero__resume" third="true" target="_blank" rel="noreferrer">
                             {t("index.second_button")}
                             <ArrowIcon className="hero__arrow"></ArrowIcon>
                         </a>
