@@ -1,22 +1,36 @@
-import technologies from "data/technologies.data"
+'use client'
+
+import originalTechnologies from "data/technologies.data"
 import { motion } from "framer-motion"
 import ShowIn from "components/ShowIn"
 import { useState } from "react"
 import TechnologiesCarrousel from "components/pages/TechnologiesCarrousel"
+import { useTranslation } from "react-i18next"
 
 export default function Technologies() {
-    const [selected, setSelected] = useState(technologies[0])
+    const [t] = useTranslation();
+    const technologies = originalTechnologies(t)
+    const [indexSelected, setIndexSelected] = useState(0)
+
+    const filteredArray = technologies.map(tech => {
+        return {
+            information: tech.information,
+            description: tech.description
+        }
+    })
+
+    console.log(filteredArray);
 
     return (
         <div className="technologies">
             <ShowIn className="technologies__initial">
-                <h2 className="title">Technologies</h2>
-                <span className="subtitle"> Amount of technologies that i use every day as <span className="bold">developer</span> </span>
+                <h2 className="title">{t("technologies.title")}</h2>
+                <span className="subtitle">{t("technologies.subtitle")}</span>
             </ShowIn>
 
-            
-            <TechnologiesCarrousel setSelected={setSelected}></TechnologiesCarrousel>
-            <TechInformation selected={selected} />
+
+            <TechnologiesCarrousel setIndexSelected={setIndexSelected}></TechnologiesCarrousel>
+            <TechInformation selected={technologies[indexSelected]} />
 
         </div >
     )
@@ -25,6 +39,7 @@ export default function Technologies() {
 
 function TechInformation({ selected }) {
     const { Icon, name, description, color, information } = selected
+    const [t, i18n] = useTranslation("technologies");
 
     return (
         <motion.div className="technologies__information">
@@ -53,7 +68,7 @@ function TechInformation({ selected }) {
                         ))
                     }
                 </MotionAnimate>
-                
+
             </motion.div>
         </motion.div>
     )

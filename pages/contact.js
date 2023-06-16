@@ -8,16 +8,18 @@ import { motion, AnimatePresence } from "framer-motion"
 import validate from "helpers/validate.helper";
 import { BiCheck as CheckIcon } from "react-icons/bi"
 import Loader from "components/Loader";
+import { useTranslation } from "react-i18next";
 
 export default function Contact() {
     const [formSent, setFormSent] = useState(false)
+    const [t] = useTranslation()
 
     return (
         <ShowIn className="contact">
             <div className="contact__column">
 
-                <h2 className="contact__title title" big="true">Let's talk</h2>
-                <p className="contact__subtitle">If you would like to chat send me an e-mail or contact me through other platforms </p>
+                <h2 className="contact__title title" big="true">{t("contact.title")}</h2>
+                <p className="contact__subtitle">{t("contact.subtitle")}</p>
 
 
                 <ul className="contact__list">
@@ -33,7 +35,7 @@ export default function Contact() {
                 </ul>
             </div>
             <div className="contact__column">
-                <div className="contact__advice">Or let's talk via email</div>
+                <div className="contact__advice">{t("contact.email_text")}</div>
                 <AnimatePresence>
                     {
                         formSent
@@ -63,29 +65,12 @@ const buttons = [
 ]
 
 
-const inputs = [
-    {
-        name: "email",
-        placeholder: "name@domain.com",
-        message: false
-    },
-    {
-        name: "affair",
-        placeholder: "Wanna work with me?",
-        message: false
-    },
-    {
-        name: "message",
-        placeholder: "",
-        message: true
-    }
-]
-
 function Form({ setFormSent }) {
     const form = useRef(null)
     const [sendingForm, setSendingForm] = useState(false)
     const [messageText, setMessageText] = useState("")
     const [formError, setFormError] = useState(null)
+    const [t] = useTranslation()
 
     function handleSubmit(e) {
         e.preventDefault()
@@ -118,6 +103,28 @@ function Form({ setFormSent }) {
         }
     }
 
+    
+    const inputs = [
+        {
+            name: t("contact.email_label"),
+            fixedName: "email",
+            placeholder: t("contact.email_placeholder"),
+            message: false
+        },
+        {
+            name: t("contact.affair_label"),
+            fixedName: "affair",
+            placeholder: t("contact.affair_placeholder"),
+            message: false
+        },
+        {
+            name: t("contact.message_label"),
+            fixedName: "message",
+            placeholder: "",
+            message: true
+        }
+    ]
+
     return (
         <motion.form
             exit="exit"
@@ -126,30 +133,28 @@ function Form({ setFormSent }) {
             variants={formElementVariants}
             className="contact__form" ref={form} onSubmit={handleSubmit}>
             {
-                inputs.map(({ name, placeholder, message }) => (
-                    <div className="contact__input-box" key={name}>
-                        <label htmlFor={name} className="contact__label">
+                inputs.map(({ name, placeholder, message, fixedName }) => (
+                    <div className="contact__input-box" key={fixedName}>
+                        <label htmlFor={fixedName} className="contact__label">
                             {name}
                             <span className="required">*</span>
                         </label>
 
                         {
-                            message ? (
+                            message ? 
+                            (
                                 <>
-                                    <span contentEditable="true" className="contact__input contact__input--message" id={name}
-                                        onInput={e => setMessageText(e.currentTarget.textContent)}></span>
-                                    <input type="text" name={name} id={name} className="contact__input" placeholder={placeholder} hidden={true}
-                                        value={messageText}
-                                        onChange={() => "Dont do nothing"}
-                                    />
+                                    <span contentEditable="true" placeholder={t("contact.message_placeholder")} className="contact__input contact__input--message" onInput={e => setMessageText(e.currentTarget.textContent)}></span>
+                                    <input type="text" name={fixedName} id={fixedName} className="contact__input" placeholder={placeholder} hidden={true} value={messageText} onChange={() => "Dont do nothing"}/>
                                 </>
-                            ) : <input type="text" name={name} id={name} className="contact__input" placeholder={placeholder} />
+                            ) 
+                            : <input type="text" name={fixedName} id={fixedName} className="contact__input" placeholder={placeholder} />
                         }
                     </div>
                 ))
             }
 
-            <input type="submit" value="Send" className="contact__submit button" seconaary="true" />
+            <input type="submit" value={t("contact.submit")} className="contact__submit button" seconaary="true" />
             <AnimatePresence>
                 {
                     formError && (
@@ -178,6 +183,7 @@ function Form({ setFormSent }) {
 }
 
 function FormSent({ setFormSent }) {
+    const [t] = useTranslation()
     return (
         <motion.div
             exit="exit"
@@ -185,10 +191,11 @@ function FormSent({ setFormSent }) {
             initial="initial"
             variants={formElementVariants}
             className="contact__sent">
+                
             <CheckIcon className="contact__sent-check" />
-            <div className="contact__sent-advice">Thank you!</div>
-            <div className="contact__sent-subadvice">The e-mail has been sent successfully</div>
-            <button className="contact__sent-button button" onClick={() => setFormSent(false)}>Return</button>
+            <div className="contact__sent-advice">{t("contact.congrats")}</div>
+            <div className="contact__sent-subadvice">{t("contact.submit_message")}</div>
+            <button className="contact__sent-button button" onClick={() => setFormSent(false)}>{t("contact.return")}</button>
         </motion.div>
     )
 }

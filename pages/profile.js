@@ -1,12 +1,16 @@
 import { BsAsterisk as AsteriskIcon } from "react-icons/bs"
-import profile from "data/profile.data"
+import originalProfile from "data/profile.data"
 import ShowIn from "components/ShowIn"
+import { useTranslation } from "react-i18next"
 
 export default function Profile() {
+    const [t] = useTranslation()
+    const profile = originalProfile(t)
+
     return (
         <ShowIn className="profile">
             <div className="profile__column">
-                <h2 className="profile__title title">Profile</h2>
+                <h2 className="profile__title title">{t("profile.title")}</h2>
             </div>
 
 

@@ -1,0 +1,34 @@
+{
+    "faq": {
+        "title": "Preguntas frecuentes",
+
+
+        "questions": [
+            {
+                "ask": "¿Has tenido experiencia laboral?",
+                "answer": "Aún no he tenido la oportunidad de trabajar formalmente en una empresa. Por esta razón, actualmente estoy buscando un trabajo como becario a tiempo parcial, independientemente de si es presencial o a distancia. Si estás interesado en hablar conmigo, ¡no dudes en ponerte en contacto conmigo!"
+            },
+            {
+                "ask": "¿Qué lenguajes hablas?",
+                "answer": "Nací en Colombia, por lo que hablo español nativo. Actualmente estoy estudiando inglés, y me encuentro en el nivel B1 con ilusión de llegar pronto al nivel C1"
+            },
+            {
+                "ask": "¿Cómo puedo contactarte?",
+                "answer": "Si está interesado en ponerse en contacto conmigo puede encontrar varias formas de hacerlo en el botón de la parte superior derecha"
+            },
+            {
+                "ask": "¿Tienes una carrera profesional?",
+                "answer": "He estudiado una carrera técnica en análisis y desarrollo de software. Actualmente estoy estudiando una carrera en el mismo campo."
+            },
+            {
+                "ask": "¿Qué disfrutas de ser desarrollador?",
+                "answer": "Como desarrollador tengo opciones de crear productos de valor, sintiendo así la satisfacción de ayudar a la sociedad a transformarse.\n\nMe gusta ver avances y mejoras en las cosas, y cuando digo cosas hablo de mis habilidades, de un proyecto, de la calidad de vida de las personas, y todo esto es algo que me aporta ser desarrollador."
+            },
+            {
+                "ask": "¿Has trabajado como freelancer?",
+                "answer": "Lo he intentado varias veces y, ya sea por falta de motivación o de disciplina, no he podido mantenerme en esta profesión durante mucho tiempo"
+            }
+            
+        ]
+    }
+}

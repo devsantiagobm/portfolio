@@ -1,0 +1,34 @@
+{
+    "projects": {
+        "title": "Projects",
+        "subtitle": "Outstanding projects and development experiences",
+
+
+        "elements": [
+            {
+                "description": "Full stack application that I consider as one of the best I have built. In it you can find almost all the existing movies and series to date. In each one you can see their information such as year of release, directors, cast, earnings, their native language, among other things. If you want to leave an opinion about the work, you can do it too! I created a review system if you want to talk about how much you love \"Pulp Fiction\", all this controlled with a system of users and sessions"
+            },
+            {
+                "description": "Application inspired by the FrontendMentor website. This consists of a virtual gallery where you can observe, as well as know in detail, the most famous works of history, such as \"Mona Lisa\", \"Starry Night\", \"Guernica\", \"The Swing\", among others."
+            },
+            {
+                "description": "This Ecommerce prototype comes, once again, from the FrontendMentor website. In it you will be able to see, with a very nice interface, the products presented by this headphones and speakers store. You can also simulate the purchase of products with a shopping cart system."
+            },
+            {
+                "description": "This landing page is a remake of the one I had already built some time ago. In this page you will find information about a fictitious space travel company, from the duration of the trip to the destination, to the people in charge of making sure you arrive safely. So don't delay and order your tickets to see the moon!"
+            },
+            {
+                "description": "Small application to generate random passwords"
+            },
+            {
+                "description": "Wiki country is a small application where you can search and explore all the countries in the world. In it you will be able to find information about any country"
+            },
+            {
+                "description": "Application of a prototype of a sneakers store. It has a view where you can simulate the action of buying shoes."
+            },
+            {
+                "description": "Fictitious job listing application where you can filter the jobs by each category"
+            }
+        ]
+    }
+}

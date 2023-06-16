@@ -1,0 +1,19 @@
+{
+    "profile":{
+        "title": "Perfil",
+
+        "about_me": "Sobre mí",
+        "about_me_text": "Soy Santiago Barrera Muñoz, desarrollador front end, aunque a veces desarrollo aplicaciones back end. \n\nActualmente vivo en Colombia, Medellín estudiando la carrera de análisis y desarrollo de software en el SENA. \n\nAunque no tengo experiencia laboral formal, me apasiona el desarrollo y he construido varios proyectos interesantes que espero puedan mostrar mis habilidades de desarrollo",
+
+        "why_develop": "¿Por qué y cómo aprendí a desarrollar?",
+        "why_develop_text": "Durante mis primeros días en el desarrollo no sabía qué debía aprender, qué camino seguir o qué debía hacer en general. Por ello, tuve que aprender algo tan importante como el desarrollo: la búsqueda. \n\nConsidero que esto, aunque suene tan básico y sin importancia, es la base de por qué hoy tengo las habilidades que tengo. Durante mis 4 años de aprendizaje, buscar e investigar ha sido la base de mis conocimientos, ya sea en cursos, documentación e incluso libros",
+
+
+        "current_employment": "Situación laboral actual",
+        "current_employment_text": "Nunca he tenido experiencia laboral formal, por lo que actualmente estoy buscando unas prácticas a tiempo parcial. Honestamente el puesto no me importa, siempre y cuando esté desarrollando productos de valor",
+
+        "what_i_build": "¿Qué puedo construir?",
+        "what_i_build_text": "Mis habilidades más fuertes como desarrollador son aquellas en las que trabaja un desarrollador front-end. \n\nEntre ellas podría mencionar la maquetación, la creación de interfaces responsive, la implementación de la lógica, la gestión del estado de una aplicación, el mantenimiento y sobre todo la creación constante de valor en un producto. \n\nPero como un proyecto dice más que mil palabras, te invito a visitar mis proyectos"
+
+    }
+}

@@ -75,8 +75,11 @@
             opacity: 1;
         }
 
-        &:hover {
-            transform: translateY(-2px);
+
+        @media (hover:hover){
+            &:hover {
+                transform: translateY(-2px);
+            }
         }
     }
 }

@@ -1,21 +1,24 @@
 import { AiOutlineLink as LinkIcon } from "react-icons/ai"
 import ShowIn from "components/ShowIn"
-import projects from "data/projects.data"
+import originalProjects from "data/projects.data"
 import Image from "next/image"
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import Project from "components/pages/Project"
 import { AiFillGithub as GithubIcon } from "react-icons/ai"
+import { useTranslation } from "react-i18next"
 
 export default function Projects() {
+    const [t] = useTranslation()
     const [selectedId, setSelectedId] = useState(null)
     const [selected, setSelected] = useState(null)
+    const projects = originalProjects(t)
 
     return (
         <div className="projects">
             <ShowIn className="projects__initial">
-                <div className="title">Santiago's  Projects</div>
-                <div className="subtitle">Personal projects i worked on</div>
+                <div className="title">{t("projects.title")}</div>
+                <div className="subtitle">{t("projects.subtitle")}</div>
             </ShowIn>
 
             <div className="projects__grid">
@@ -24,7 +27,7 @@ export default function Projects() {
                         <Project key={project.name}
                             project={project}
                             setSelectedId={setSelectedId}
-                            setSelected={setSelected}/>)
+                            setSelected={setSelected} />)
                     )
                 }
             </div>
@@ -46,15 +49,16 @@ export default function Projects() {
 
 function Modal({ selected, setSelected, selectedId }) {
     const { name, description, image, technologies, github, link } = selected
+    const [t, i18n] = useTranslation()
 
     return (
         <div className="projects__modal">
-            <motion.div className="projects__modal-background" onClick={() => setSelected(null)} exit={{ opacity: 0}}/>
+            <motion.div className="projects__modal-background" onClick={() => setSelected(null)} exit={{ opacity: 0 }} />
             <motion.div layoutId={selectedId} className="projects__modal-box" transition={{ duration: .7 }}>
                 <picture className="projects__modal-picture">
-                    <Image src={`/project-images/${image}`} 
-                    width={560} height={350} className="projects__modal-image" 
-                    alt={"Project image"}/>
+                    <Image src={`/project-images/${image}`}
+                        width={560} height={350} className="projects__modal-image"
+                        alt={"Project image"} />
                 </picture>
                 <div className="projects__modal-row">
                     <h3>{name}</h3>
@@ -68,14 +72,15 @@ function Modal({ selected, setSelected, selectedId }) {
                         </a>
                         <a className="button" href={link} secondary="true" target={"_blank"} without rel="noreferrer">
                             <LinkIcon></LinkIcon>
-                            Visit</a>
+                            {i18n.language === "es" ? "Visitar" : "Visit"}
+                        </a>
                     </div>
 
                     <ul className="projects__modal-list">
                         {
                             technologies.map(({ name, Icon, color }) => (
                                 <li className="projects__modal-icon" style={{ "--color-icon": color }} title={name} key={name}>
-                                    <Icon/>
+                                    <Icon />
                                 </li>
                             ))
                         }

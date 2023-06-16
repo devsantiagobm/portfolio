@@ -17,10 +17,6 @@
         &:nth-child(2) {
             @include abstracts.flexbox(column, 32px, center, center);
             background-color: var(--primary-soft);
-
-            & > *{
-                transform: translateY(-16px)
-            }
         }
     }
 
@@ -61,7 +57,7 @@
             position: relative;
 
             &:empty::before {
-                content: "Let's work on the best product!";
+                content: attr(placeholder);
             }
         }
     }

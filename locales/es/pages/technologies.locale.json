@@ -1,0 +1,152 @@
+{
+    "technologies": {
+        "title": "Tecnologías",
+        "subtitle": "Lista de tecnologías que utilizo a diario como desarrollador",
+        "elements": [
+            {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "Con React, puedo crear interfaces de usuario interactivas y con gran capacidad de respuesta que se pueden integrar fácilmente con otras bibliotecas o marcos de JavaScript.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "Con react he creado múltiples aplicaciones web, entre las más destacadas están una aplicación para críticas de películas y series, un prototipo de ecommerce para auriculares, y una galería de arte",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "En general, React es una biblioteca potente y versátil que me ayuda a construir aplicaciones web eficientes, escalables y mantenibles. Sus principales cualidades son que es fácil de usar, tiene una amplia comunidad y también se integra fácilmente con otras herramientas.",
+                "description": "El framework React.js es un framework y biblioteca de JavaScript de código abierto desarrollado por Facebook. Se utiliza para construir interfaces de usuario interactivas y aplicaciones web de manera rápida y eficiente, con significativamente menos código que el que se requeriría con JavaScript puro."
+            },
+            {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "JavaScript es el lenguaje de programación que mejor utilizo para resolver problemas. El principal uso que le doy es crear sitios web interactivos y dinámicos.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "Además de los proyectos construidos con React, algunos proyectos interesantes construidos con esta tecnología han sido: un CRM de clientes, una página de aterrizaje para una ficticia compañía de viajes espaciales y un reloj.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "La principal razón por la que uso JavaScript es su flexibilidad, la cual, a diferencia de otros lenguajes de programación, te permite desarrollar aplicaciones para diferentes plataformas.",
+                "description": "JavaScript es un lenguaje de programación o scripting que te permite implementar características complejas en páginas web, como actualizaciones de contenido en tiempo real, mapas interactivos, gráficos animados 2D/3D, reproductores de video con desplazamiento, entre otros."
+            },
+            {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "HTML5 me permite crear estructuras web como encabezados, párrafos, listas, tablas, formularios y más para dar forma y estructura a tu contenido web.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "Debido a que HTML5 es el lenguaje de marcado estándar en los navegadores, todas las aplicaciones de front-end que he construido han utilizado esta tecnología. La que destaca más es la aplicación de reseñas de películas y series.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "Uso HTML5 porque es el estándar web actual para crear páginas web y aplicaciones web. Esto significa que es ampliamente compatible con la mayoría de los navegadores web modernos y es la opción más segura y confiable para crear contenido web.",
+                "description": "HTML significa Lenguaje de Marcado de Hipertexto. Es un lenguaje de marcado estándar para la creación de páginas web. Permite la creación y estructura de secciones, párrafos y enlaces utilizando elementos HTML (los bloques de construcción de una página web), como etiquetas y atributos."
+            },
+            {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "CSS es el lenguaje que utilizo para dar estilo y presentar mi página o aplicación web. Con CSS, controlo el diseño, estilo y apariencia de los elementos en mi sitio web, lo que me permite crear diseños atractivos, animaciones y efectos visuales.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "Debido a que CSS3 es el lenguaje de estilos estándar en los navegadores, cada aplicación de front-end que he construido ha utilizado esta tecnología. La que destaca más es la aplicación de reseñas de películas y series.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "Con CSS3 tengo un control total de la presentación en mi sitio web, independientemente de la plataforma o el navegador. Además, es fácil de mantener y actualizar.",
+                "description": "CSS se encarga de la apariencia visual de una página web. Con CSS, puedes controlar el color del texto, el estilo de las fuentes, el espaciado entre párrafos, el tamaño y la disposición de las columnas, las imágenes de fondo o los colores utilizados, los diseños de diseño, las variaciones en la visualización para diferentes dispositivos y tamaños de pantalla, así como una variedad de otros efectos."
+            },
+            {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "SASS (Syntactically Awesome Style Sheets) es un preprocesador de CSS que te permite escribir código CSS de manera más eficiente y rápida.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "SASS es la principal y favorita herramienta que utilizo para estilizar mis aplicaciones web. Llevo usando SASS durante 1 año, y desde ese momento he construido todas mis aplicaciones con esta tecnología.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "Utilizo SASS en mi día a día porque, como preprocesador, me ayuda a ahorrar tiempo y reducir la repetición de código con variables, funciones y anidamiento de selectores. Además, un punto clave es su sistema de modularización y organización, que me permite mantener mi código organizado y fácil de entender, especialmente en proyectos grandes.",
+                "description": "Sass (que significa 'Syntactically awesome style sheets') es una extensión de CSS que te permite utilizar cosas como variables, reglas anidadas, importaciones en línea y más. También ayuda a mantener las cosas organizadas y te permite crear hojas de estilo más rápidamente."
+            },
+            {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "NextJS es el marco de trabajo por excelencia para React. Me proporciona renderizado en el lado del servidor, generación de páginas estáticas, optimización de rendimiento e incluso integración con APIs externas.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "NextJS es la tecnología con la que trabajo más en la actualidad. De hecho, este portafolio está construido utilizando esta herramienta. Dos de mis proyectos principales han sido construidos en NextJS: la aplicación de reseñas de películas y series, y la galería de arte.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "La necesidad de utilizar NextJS surge de la deficiencia de React para gestionar el SEO en un sitio web. Además, nos permite escribir código JavaScript y React en el servidor, lo que nos abre muchas puertas a la hora de desarrollar aplicaciones full stack.",
+                "description": "Next.js es un framework flexible de React que te proporciona bloques de construcción para crear aplicaciones web rápidas."
+            },
+            {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "Styled Components me permite definir estilos para mis componentes de React de una manera más intuitiva y dinámica, lo que facilita la lectura y el mantenimiento del código. También me permite crear temas personalizados y anidar estilos para crear estilos más complejos.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "Styled Components no es mi forma favorita de estilizar mis aplicaciones, pero aún así he construido aplicaciones pequeñas utilizando esta tecnología, como aplicaciones de clima, formularios, etc.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "Styled Components es una forma rápida y declarativa de escribir estilos, que, aunque tiene algunas desventajas en comparación con otras herramientas, reduce considerablemente el tiempo de desarrollo.",
+                "description": "Usando etiquetas literales de plantillas etiquetadas y funciones de flecha en ES6+ y CSS, styled-components es una solución de estilizado CSS-in-JS específica de React que crea una plataforma para que los desarrolladores puedan escribir código CSS real para estilizar componentes de React, así como en React Native."
+            },
+            {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "Esta herramienta te permite escribir código HTML de una manera elegante, concisa y legible. Con esta tecnología, tengo la capacidad de transformar código mantenible, reutilizable y legible de Pug a HTML estándar.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "Al comienzo de mi etapa de aprendizaje, Pug era la herramienta que utilizaba para escribir código HTML. Esto me llevó a crear varios proyectos interesantes con esta tecnología, como una wiki de países, una página de aterrizaje espacial, un prototipo de comercio electrónico de zapatos, entre otros.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "Pug me proporciona una sintaxis simplificada de HTML estándar. Además, la reutilización de código y la eficiencia al escribir son factores que me llevaron a utilizar esta herramienta como una de mis favoritas.",
+                "description": "Pug.js, anteriormente conocido como Jade, es un motor de plantillas diseñado para renderizar HTML en tecnologías del lado del servidor como Node.js. Al igual que cualquier motor de plantillas JavaScript, Pug.js admite la escritura de código HTML reutilizable y la renderización de datos dinámicos."
+            },
+            {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "Figma es una herramienta de diseño, generalmente utilizada para crear interfaces de usuario. Con ella puedo crear interfaces atractivas, que aunque no sean las más sofisticadas porque no soy diseñador, cumplen su función en el proceso de desarrollo de un producto.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "Con Figma he diseñado varias de mis propias aplicaciones, como mi primer portafolio, un gestor de clientes y mi favorita: una agencia inmobiliaria. Todo desde cero.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "Figma es una herramienta de diseño en la nube, que me permite crear cualquier interfaz de usuario desde mi propio navegador. Además, es una herramienta de diseño completa, es decir, es posible crear la identidad de un producto completamente con Figma. Por último, comento que es la herramienta de diseño más cómoda y fácil de usar que he utilizado.",
+                "description": "Figma es una poderosa herramienta de diseño que te ayuda a crear cualquier cosa: sitios web, aplicaciones, logotipos y mucho más."
+            },
+            {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "MySQL es posiblemente el gestor de bases de datos más famoso del mundo. Con él, tengo la capacidad de modelar bases de datos desde cero, realizar consultas DDL y DML e incluso cambiar la lógica de la base de datos.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "Mi camino en el back-end no ha sido tan largo como en el front-end, pero aún así he creado y modelado algunas bases de datos, como un gestor para comprar y vender casas, un sistema de contactos y un gestor para una clínica veterinaria.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "Utilizo este gestor de bases de datos porque, además de ser de código abierto y gratuito, su compatibilidad con casi todos los lenguajes de programación brinda libertad en el desarrollo. Asimismo, cabe mencionar que es una plataforma confiable debido a su gran comunidad y al tiempo que ha sido consolidado en el mercado.",
+                "description": "MySQL, el sistema de gestión de bases de datos SQL de código abierto más popular, es desarrollado, distribuido y respaldado por Oracle Corporation."
+            },
+            {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "PHP es el único lenguaje de programación backend con el que tengo suficientes habilidades para construir sistemas decentes. Utilizando esta tecnología, tengo la capacidad de gestionar bases de datos, lo que me permite crear sistemas CRUD (crear, eliminar, actualizar, eliminar).",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "Mi camino en el backend no ha sido tan largo como en el frontend, pero aún así he creado algunos sistemas básicos, como un gestor para comprar y vender casas o un sistema de contactos.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "PHP es un lenguaje de programación de alto nivel. Esto significa que su curva de aprendizaje es baja en comparación con otros lenguajes de programación. Esta fue la razón principal por la que aprendí a utilizar PHP como lenguaje backend.",
+                "description": "PHP (acrónimo recursivo de PHP: Preprocesador de Hipertexto) es un lenguaje de script de propósito general de código abierto ampliamente utilizado que es especialmente adecuado para el desarrollo web y se puede incrustar en HTML."
+            },
+            {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "Firebase es una plataforma web y móvil que permite a los desarrolladores construir sistemas backend de manera rápida y sencilla. Con esta herramienta, tengo la capacidad de crear sistemas de sesión, gestionar usuarios, información y archivos.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "Con la ayuda de Firebase, he creado lo que considero mi mejor proyecto personal: una aplicación de reseñas de películas y series. En ella, he aprendido mucho sobre Firebase, su funcionamiento, sus limitaciones y, sobre todo, lo que se puede lograr utilizando esta tecnología.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "Es una plataforma gratuita que ofrece una amplia variedad de servicios y herramientas útiles para el desarrollo móvil o web. También es fácil de usar y aprender, con una curva de aprendizaje más rápida que un lenguaje de programación backend. Aunque, obviamente, esto viene con limitaciones.",
+                "description": "Google Firebase es un software de desarrollo de aplicaciones respaldado por Google que permite a los desarrolladores crear aplicaciones para iOS, Android y web. Firebase proporciona herramientas para realizar un seguimiento de análisis, informar y solucionar bloqueos de aplicaciones, crear experimentos de marketing y productos."
+            },
+            {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "TailwindCSS es otra técnica o tecnología para dar estilo a páginas web. Con ella puedo crear estilos para el 100% de mi aplicación. Aunque no es mi opción favorita para crear estilos, siempre la considero si el proyecto no va a crecer mucho.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "Con la ayuda de esta herramienta, he creado varias aplicaciones básicas, como formularios, filtros, CRM, entre otros.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "TailwindCSS es una tecnología que te brinda productividad y flexibilidad al escribir código CSS. Además, sus limitaciones facilitan la creación de diseños responsivos.",
+                "description": "Tailwind CSS hace que sea más rápido escribir y mantener el código de tu aplicación. Al utilizar este framework de utilidades, no es necesario escribir CSS personalizado para estilizar tu aplicación."
+            },
+            {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "GitHub es una plataforma en línea que se utiliza principalmente para alojar y gestionar proyectos de software. Generalmente utilizo la plataforma para gestionar mis propios proyectos y a veces la utilizo como documentación para ciertos proyectos.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "Con GitHub he gestionado cada uno de los proyectos que he subido a la web.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "GitHub y su ecosistema es la herramienta más utilizada en la web para gestionar código, y esto no es en vano. Esta tecnología tiene múltiples funciones y servicios que me permiten como desarrollador cambiar versiones en mis proyectos, gestionar quién puede cambiar el contenido de mis archivos, entre otras cosas.",
+                "description": "GitHub es un sitio web y un servicio basado en la nube que ayuda a los desarrolladores a almacenar y gestionar su código, así como a rastrear y controlar los cambios en su código."
+            },
+            {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "Git es otra herramienta para gestionar proyectos, sus versiones y sus cambios. Esta herramienta es esencial para el desarrollo y posterior mantenimiento de cualquier aplicación. Dicho esto, comento que lo uso todos los días para crear nuevos proyectos, editar los ya creados y a veces eliminarlos.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "Con Git he gestionado cada uno de los proyectos que he subido a la web.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "Git permite la colaboración en un proyecto entre múltiples desarrolladores. Esto es fundamental en el desarrollo de un producto. Además, su sistema de versiones me permite realizar un seguimiento de cualquier problema en cualquier momento.",
+                "description": "Git es una herramienta de DevOps utilizada para la gestión de código fuente. Es un sistema de control de versiones gratuito y de código abierto utilizado para manejar proyectos pequeños hasta muy grandes de manera eficiente."
+            },
+            {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "NPM es un administrador de paquetes que me permite gestionarlos fácilmente en mi proyecto. Es una herramienta fundamental en el desarrollo web moderno.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "Desde mis primeros días aprendiendo React, he utilizado NPM de una forma u otra. Esto significa que todos los proyectos construidos en React utilizan NPM.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "NPM es el administrador de paquetes estándar de Node.js para cualquier proyecto. Aunque existen alternativas, esta opción es la más estable, la que tiene más información y también la más utilizada.",
+                "description": "NPM significa Node Package Manager. Es una biblioteca y registro de paquetes de software JavaScript. npm también tiene herramientas de línea de comandos que te ayudan a instalar los diferentes paquetes y gestionar sus dependencias. npm es gratuito y es utilizado por más de 11 millones de desarrolladores en todo el mundo."
+            }
+        ]
+    }
+}

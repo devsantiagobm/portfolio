@@ -1,0 +1,25 @@
+{
+    "contact": {
+        "title": "Hablemos",
+        "subtitle": "Si quieres charlar ponte en contacto conmigo a través de estas plataformas",
+        "email_text": "O hablemos por email",
+
+
+        "email_label": "Email",
+        "affair_label": "Asunto",
+        "message_label": "Mensaje",
+
+        
+        "email_placeholder": "nombre@dominio.com",
+        "affair_placeholder": "¿Quieres trabajar conmigo?",
+        "message_placeholder": "¡Trabajemos juntos en el mejor producto!",
+
+
+        "submit": "Enviar",
+
+        
+        "congrats": "¡Gracias!",
+        "submit_message": "El correo ha sido enviado correctamente",
+        "return": "Regresar"
+    }
+}

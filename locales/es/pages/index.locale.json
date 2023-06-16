@@ -1,0 +1,18 @@
+{
+    "index": {
+        "first_title": "Hola! Soy",
+        "profession": "Desarrollador",
+        "description": "Construyendo productos de calidad como ",
+        "bold_description": "Desarrollador frontend",
+        "first_button": "Perfil",
+        "second_button": "Curriculum",
+        "about_text": "Sobre mí",
+        "about_button": "Conocer más",
+        "from_text": "De",
+        "location_text": "Ubicación",
+        "age_text": "Edad",
+        "image_text": "Creemos tu producto con las ",
+        "image_text_bold": "mejores tecnologías",
+        "resume_link": "/cv_spanish_santiago_barrera.pdf"
+    }
+}

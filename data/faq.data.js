@@ -1,37 +1,38 @@
-const faq = [
-    {
-        ask: "Have you had work experience?",
-        answer: `I have not yet had the chance to work formally in a company. For this reason, I am currently looking for a job as a part-time intern, regardless of whether it is on-site or remote. If you are interested in talking to me do not hesitate to contact me!        `,
-        id: 1
-    },
-    {
-        ask: "What languages do you speak?",
-        answer:`I was born in Colombia, so I speak native Spanish. I am currently studying English, and I am at B1 level with enthusiasm to reach C1 level soon.`,
-        id: 2
-    },
-    {
-        ask: "How can I contact you?",
-        answer: `If you are interested in contacting me you can find several ways to do so in the button on the top right.`,
-        id: 3
-    },
-    {
-        ask: "Have you studied a professional career?",
-        answer: `I have studied a technical degree in software analysis and development. I am currently studying a career in the same field.`,
-        id: 4
-    },
-    {
-        ask: "What do you enjoy about being a developer?",
-        answer: `As a developer I have the options to create products of value, thus feeling the satisfaction of helping society to transform.
 
-        \nI like to see progress and improvements in things, and when I say things I am talking about my skills, a project, the quality of life of people, and all this is something that being a developer gives me.
-        `,
-        id: 5
-    },
-    {
-        ask: "Have you worked as a freelancer?",
-        answer: `I have tried several times, and either because of lack of motivation or lack of discipline, I have not been able to stay in this profession for a long time.`,
-        id: 6
-    },
-]
+function faq(t){
+    return [
+        {
+            ask: t("faq.questions.0.ask"),
+            answer: t("faq.questions.0.answer"),
+            id: 1
+        },
+        {
+            ask: t("faq.questions.1.ask"),
+            answer: t("faq.questions.1.answer"),
+            id: 2
+        },
+        {
+            ask: t("faq.questions.2.ask"),
+            answer: t("faq.questions.2.answer"),
+            id: 3
+        },
+        {
+            ask: t("faq.questions.3.ask"),
+            answer: t("faq.questions.3.answer"),
+            id: 4
+        },
+        {
+            ask: t("faq.questions.4.ask"),
+            answer: t("faq.questions.4.answer"),
+            id: 5
+        },
+        {
+            ask: t("faq.questions.5.ask"),
+            answer: t("faq.questions.5.answer"),
+            id: 6
+        },
+    ]
+}
+
 
 export default faq

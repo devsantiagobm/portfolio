@@ -1,0 +1,32 @@
+{
+    "projects": {
+        "title": "Proyectos",
+        "subtitle": "Proyectos destacados y experiencias de desarrollo",
+        "elements": [
+            {
+                "description": "Aplicación fullstack que considero una de las mejores que he construido. En ella puedes encontrar casi todas las películas y series existentes hasta la fecha. En cada una puedes ver su información, como el año de lanzamiento, directores, reparto, ganancias, idioma original, entre otras cosas. ¡Si quieres dejar una opinión sobre el trabajo, también puedes hacerlo! He creado un sistema de reseñas si quieres hablar sobre cuánto amas 'Pulp Fiction', todo esto controlado con un sistema de usuarios y sesiones"
+            },
+            {
+                "description": "Aplicación inspirada en el sitio web de FrontendMentor. Consiste en una galería virtual donde puedes observar, así como conocer en detalle, las obras más famosas de la historia, como 'Mona Lisa', 'Noche Estrellada', 'Guernica', 'El Columpio', entre otras."
+            },
+            {
+                "description": "Este prototipo de comercio electrónico proviene, una vez más, del sitio web de FrontendMentor. En él podrás ver, con una interfaz muy agradable, los productos presentados por esta tienda de auriculares y altavoces. También puedes simular la compra de productos con un sistema de carrito de compras."
+            },
+            {
+                "description": "Esta página de destino es una versión mejorada de la que ya había construido hace algún tiempo. En esta página encontrarás información sobre una empresa ficticia de viajes espaciales, desde la duración del viaje hasta el destino, y las personas encargadas de asegurarse de que llegues sano y salvo. ¡Así que no te demores y reserva tus boletos para ver la luna!"
+            },
+            {
+                "description": "Pequeña aplicación para generar contraseñas aleatorias."
+            },
+            {
+                "description": "Wiki Country es una pequeña aplicación donde puedes buscar y explorar todos los países del mundo. En ella podrás encontrar información sobre cualquier país."
+            },
+            {
+                "description": "Aplicación de un prototipo de tienda de zapatillas. Tiene una vista donde puedes simular la acción de comprar zapatos."
+            },
+            {
+                "description": "Aplicación ficticia de listado de empleos donde puedes filtrar los trabajos por cada categoría."
+            }
+        ]
+    }
+}

@@ -1,12 +1,16 @@
 import { FiArrowDownLeft as ArrowIcon } from "react-icons/fi"
 import ShowIn from "components/ShowIn"
 import { useEffect, useRef, useState } from "react"
-import faq from "data/faq.data"
+import originalFaq from "data/faq.data"
+import { useTranslation } from "react-i18next"
 
 export default function Faq() {
+    const [t] = useTranslation();
+    const faq = originalFaq(t)
+
     return (
         <ShowIn className="faq">
-            <div className="faq__title title" center="true">Frequently Asked Questions</div>
+            <div className="faq__title title" center="true">{t("faq.title")}</div>
             <div className="faq__questions">
                 {
                     faq.map(question => <Question key={question.id} question={question} />)

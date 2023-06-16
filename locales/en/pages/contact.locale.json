@@ -1,0 +1,24 @@
+{
+    "contact": {
+        "title": "Let´s talk",
+        "subtitle": "If you want to chat contact me through these platforms",
+        "email_text": "Or let's talk via email",
+
+
+        "email_label": "Email",
+        "affair_label": "Affair",
+        "message_label": "Message",
+
+        
+        "email_placeholder": "name@domain.com",
+        "affair_placeholder": "Wanna work with me?",
+        "message_placeholder": "Let's work on the best product!",
+
+        "submit": "Send",
+
+
+        "congrats": "Thank you!",
+        "submit_message": "The e-mail has been sent successfully",
+        "return": "Return"
+    }
+}

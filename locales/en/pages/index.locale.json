@@ -1,0 +1,18 @@
+{
+    "index": {
+        "first_title": "Hi! i am",
+        "profession": "developer",
+        "description": "Building quality products as a ",
+        "bold_description": "Frontend Developer",
+        "first_button": "Profile",
+        "second_button": "Resume",
+        "about_text": "About me",
+        "about_button": "Know more",
+        "from_text": "From",
+        "location_text": "Location",
+        "age_text": "Age",
+        "image_text": "Let´s create your product with ",
+        "image_text_bold": "the best technologies ",
+        "resume_link": "/cv_english_santiago_barrera.pdf"
+    }
+}

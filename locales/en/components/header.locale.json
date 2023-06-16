@@ -1,0 +1,12 @@
+{
+    "header": {
+        "links": {
+            "home": "Home",
+            "projects": "Projects",
+            "technologies": "Technologies",
+            "profile": "Profile",
+            "faq": "FAQ"
+        },
+        "button": "Let´s talk!"
+    }
+}
