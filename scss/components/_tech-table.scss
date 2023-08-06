@@ -1,0 +1,66 @@
+@use "../abstracts";
+
+.tech-table {
+
+    &__box {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        font-size: 3rem;
+        width: 100%;
+    }
+
+    &__item {
+        user-select: none;
+        cursor: pointer;
+        height: auto;
+        @include abstracts.flexbox(column, 4px, center, center);
+        color: var(--bg);
+        aspect-ratio: 1.5 / 1;
+        background-color: var(--custom-color);
+
+
+        @media (hover:hover) {
+
+            &:hover .tech-table__icon,
+            &:hover .tech-table__name {
+                transform: translateY(-6px);
+            }
+        }
+
+
+    }
+
+    &__name {
+        font-size: .9rem;
+    }
+
+    &__icon,
+    &__name {
+        transition: transform .3s ease, opacity .3s ease;
+    }
+}
+
+
+@mixin auto-carousel-872px {
+    .tech-table {
+        &__icon {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+@mixin auto-carrousel-572px {
+    .tech-table {
+        &__box {
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        }
+
+        &__item {
+            aspect-ratio: 1.5 / 1;
+        }
+
+        &__name {
+            font-size: .8rem;
+        }
+    }
+}

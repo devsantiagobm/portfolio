@@ -1,7 +1,7 @@
 import { motion } from "framer-motion"
 
 export default function ShowIn(props) {
-    const { children } = props
+
     return (
         <motion.div
             variants={showInVariants}
@@ -11,7 +11,7 @@ export default function ShowIn(props) {
             transition={{ duration: .6, ease: "easeOut" }}
             {...props}
             >
-            {children}
+            {props.children}
         </motion.div>
     )
 }

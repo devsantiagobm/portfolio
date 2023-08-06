@@ -6,27 +6,27 @@
         "questions": [
             {
                 "ask": "¿Has tenido experiencia laboral?",
-                "answer": "Aún no he tenido la oportunidad de trabajar formalmente en una empresa. Por esta razón, actualmente estoy buscando un trabajo como becario a tiempo parcial, independientemente de si es presencial o a distancia. Si estás interesado en hablar conmigo, ¡no dudes en ponerte en contacto conmigo!"
+                "answer": "Hasta el momento, no he tenido la oportunidad de emplearme en una empresa de manera formal. Como resultado, me encuentro en la búsqueda de un puesto a tiempo parcial, ya sea en modalidad presencial (Medellín) o remota. Si consideras la posibilidad de entablar una conversación, estaré encantado de que te pongas en contacto conmigo. ¡Espero poder hablar contigo!"
             },
             {
                 "ask": "¿Qué lenguajes hablas?",
-                "answer": "Nací en Colombia, por lo que hablo español nativo. Actualmente estoy estudiando inglés, y me encuentro en el nivel B1 con ilusión de llegar pronto al nivel C1"
+                "answer": "Soy nativo de Colombia y tengo fluidez en español. En la actualidad, me encuentro en proceso de estudio del idioma inglés, encontrándome en el nivel B1 y trabajando con dedicación para alcanzar el nivel C1 en un futuro próximo."
             },
             {
                 "ask": "¿Cómo puedo contactarte?",
-                "answer": "Si está interesado en ponerse en contacto conmigo puede encontrar varias formas de hacerlo en el botón de la parte superior derecha"
+                "answer": "Si estás interesado en contactarme, puedes encontrar diversas formas de hacerlo en el botón ubicado en la esquina superior derecha."
             },
             {
                 "ask": "¿Tienes una carrera profesional?",
-                "answer": "He estudiado una carrera técnica en análisis y desarrollo de software. Actualmente estoy estudiando una carrera en el mismo campo."
+                "answer": "He cursado una carrera técnica en análisis y desarrollo de software. En la actualidad, me encuentro estudiando una carrera en el mismo campo."
             },
             {
                 "ask": "¿Qué disfrutas de ser desarrollador?",
-                "answer": "Como desarrollador tengo opciones de crear productos de valor, sintiendo así la satisfacción de ayudar a la sociedad a transformarse.\n\nMe gusta ver avances y mejoras en las cosas, y cuando digo cosas hablo de mis habilidades, de un proyecto, de la calidad de vida de las personas, y todo esto es algo que me aporta ser desarrollador."
+                "answer": "Como desarrollador, tengo la capacidad de crear productos de valor, lo que me brinda la satisfacción de contribuir a transformar la sociedad. Me agrada observar progresos y mejoras en distintos aspectos, ya sean mis habilidades, un proyecto en el que trabajo o la calidad de vida de las personas. Todo esto es algo que ser desarrollador me proporciona."
             },
             {
                 "ask": "¿Has trabajado como freelancer?",
-                "answer": "Lo he intentado varias veces y, ya sea por falta de motivación o de disciplina, no he podido mantenerme en esta profesión durante mucho tiempo"
+                "answer": "No, hasta el momento no he tenido experiencia trabajando como freelancer. Mi enfoque ha estado en desarrollar mis habilidades a través de proyectos personales y de aprendizaje en entornos educativos. Estoy ansioso por explorar oportunidades tanto en proyectos independientes como en roles colaborativos en el futuro."
             }
             
         ]

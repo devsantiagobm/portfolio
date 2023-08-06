@@ -1,44 +1,46 @@
 @use "../abstracts";
 
 
-.technologies{
+.technologies {
     padding: 32px 0 0;
     max-width: 100%;
-    overflow-x: hidden;
+    overflow: clip;
+    // Sticky no funciona con un ancestro hidden. Clip funciona similar a hidden
 
-    &__initial{
+    &__initial {
         @include abstracts.flexbox(column, 8px, center, center);
         padding: 0 var(--sections-padding);
         text-align: center;
     }
 
-    &__grid{
+    &__grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         max-width: 100%;
         margin: 48px 0 0;
     }
-    
-    &__item{
+
+    &__item {
         position: relative;
-        
+
 
         @include abstracts.flexbox(row);
         background-color: var(--bg-secondary);
         max-width: 100%;
         cursor: pointer;
-        &--modal{
+
+        &--modal {
             padding: 24px;
 
             max-width: 500px;
         }
     }
-    
-    &__item:hover &__icons{
+
+    &__item:hover &__icons {
         transform: scale(1.2);
     }
 
-    &__picture{
+    &__picture {
         @include abstracts.center();
         // width: 64px;
         min-height: 100%;
@@ -50,29 +52,35 @@
         color: var(--bg);
         font-size: 1.4rem;
 
-        &--modal{
+        &--modal {
             border-radius: 50%;
         }
     }
 
-    &__icons{
+    &__icons {
         transition: transform .2s ease;
     }
 
 
-    &__information{
+    &__information {
         max-width: 100%;
+        width: 100%;
+        height: 100%;
+        grid-area: information;
+        max-height: 100%;
     }
     
-    &__information-box{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+    &__information-box {
+        position: sticky;
+        top: 0;
+        height: auto;
     }
 
-    &__column{
-        padding: 48px var(--sections-padding) 48px var(--sections-padding);
+    &__column {
+        padding: 40px;
         
-        &:nth-child(1){
+        
+        &:nth-child(1) {
             position: relative;
             min-height: 100%;
             color: var(--bg-secondary);
@@ -80,81 +88,105 @@
             @include abstracts.flexbox(column, 16px);
         }
 
-        &:nth-child(2){
+        &:nth-child(2) {
             @include abstracts.flexbox(column, 24px);
         }
     }
 
-    &__name{
+    &__name {
         margin: 0 0 8px;
         font-weight: var(--font-medium);
         height: 100%;
         @include abstracts.center();
     }
 
-    &__icon{
+    &__icon {
         height: 100%;
         width: auto;
         aspect-ratio: 1;
         color: var(--custom-color);
-        font-size: 3rem;        
+        font-size: 3rem;
     }
 
-    &__main-data{
+    &__main-data {
         @include abstracts.flexbox(row, 12px, flex-start, center);
     }
- 
-    &__modal{
+
+    &__modal {
         // width: 100vw;
         // height: 100vh;
         // position: fixed;
         inset: 0;
         @include abstracts.center();
         z-index: 1;
-        
+
     }
 
-    &__background{
-        background-color:    rgba(17, 13, 10, .3);
+    &__background {
+        background-color: rgba(17, 13, 10, .3);
         transition: background-color .2s ease;
         // position: fixed;
         inset: 0;
     }
 
-    &__carrousels{
-        margin: 5vh 0 0;
-    }
-
-    &__description{
-        font-size: .85rem;
+    &__description {
+        font-size: .8rem;
+        max-width: 70ch;
         margin: 16px 0 0;
     }
 
-    &__sticky{
+    &__sticky {
         position: sticky;
         top: 48px;
     }
 
-    &__paragraph{
+    &__paragraph {
         font-size: .9rem;
         @include abstracts.flexbox(column, 12px);
+    }
+
+
+    &__main{
+        display: grid;
+        align-items: baseline;
+        justify-content: baseline;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: "table information";
+        margin: 5dvh 0 0;
+    }
+
+    &__table{
+        grid-area: table;
+    }
+
+    &__explanation {
+        font-size: .9rem;
     }
 }
 
 
-@mixin technologies-872px{
-    .technologies{
+@mixin technologies-872px {
+    .technologies {
 
-        &__information-box{
+        &__information-box {
             grid-template-columns: 1fr;
         }
-    
-        &__question{
-            font-size: 1.3rem!important;
+
+        &__question {
+            font-size: 1.3rem !important;
         }
 
-        &__explanation{
+        &__explanation {
             font-size: .8rem;
+        }
+
+        &__main{
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-areas: "table" "information";
+        }
+
+        &__column{
+            padding: 32px var(--sections-padding);
         }
     }
 }

@@ -1,25 +1,16 @@
-'use client'
-
 import originalTechnologies from "data/technologies.data"
 import { motion } from "framer-motion"
 import ShowIn from "components/ShowIn"
 import { useState } from "react"
-import TechnologiesCarrousel from "components/pages/TechnologiesCarrousel"
+import TechnologiesTable from "components/pages/TechnologiesTable"
 import { useTranslation } from "react-i18next"
+import { useRef } from "react"
 
 export default function Technologies() {
     const [t] = useTranslation();
     const technologies = originalTechnologies(t)
     const [indexSelected, setIndexSelected] = useState(0)
-
-    const filteredArray = technologies.map(tech => {
-        return {
-            information: tech.information,
-            description: tech.description
-        }
-    })
-
-    console.log(filteredArray);
+    const informationBox = useRef(null)
 
     return (
         <div className="technologies">
@@ -28,21 +19,21 @@ export default function Technologies() {
                 <span className="subtitle">{t("technologies.subtitle")}</span>
             </ShowIn>
 
-
-            <TechnologiesCarrousel setIndexSelected={setIndexSelected}></TechnologiesCarrousel>
-            <TechInformation selected={technologies[indexSelected]} />
+            <div className="technologies__main">
+                <TechnologiesTable setIndexSelected={setIndexSelected} informationBox={informationBox}></TechnologiesTable>
+                <TechInformation selected={technologies[indexSelected]} informationBox={informationBox} />
+            </div>
 
         </div >
     )
 }
 
 
-function TechInformation({ selected }) {
+function TechInformation({ selected, informationBox }) {
     const { Icon, name, description, color, information } = selected
-    const [t, i18n] = useTranslation("technologies");
 
     return (
-        <motion.div className="technologies__information">
+        <motion.div className="technologies__information" ref={informationBox}>
             <motion.div className="technologies__information-box">
                 <div className="technologies__column">
                     <MotionAnimate className="technologies__sticky" key={name}>
@@ -75,29 +66,27 @@ function TechInformation({ selected }) {
 }
 
 
-
-const informationVariants = {
-    hide: {
-        opacity: 0,
-    },
-    visible: {
-        opacity: 1,
-    },
-    transition: {
-        duration: .5
-    }
-}
-
-
 function MotionAnimate(props) {
-    const { children } = props;
+
+    const informationVariants = {
+        hide: {
+            opacity: 0,
+        },
+        visible: {
+            opacity: 1,
+        },
+        transition: {
+            duration: .5
+        }
+    }
+
     return (
         <motion.div {...props}
             variants={informationVariants}
             initial="hide"
             animate="visible"
             transition="transition">
-            {children}
+            {props.children}
         </motion.div>
     )
 }

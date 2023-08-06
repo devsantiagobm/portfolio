@@ -2,33 +2,34 @@
     "projects": {
         "title": "Projects",
         "subtitle": "Outstanding projects and development experiences",
-
-
-        "elements": [
-            {
-                "description": "Full stack application that I consider as one of the best I have built. In it you can find almost all the existing movies and series to date. In each one you can see their information such as year of release, directors, cast, earnings, their native language, among other things. If you want to leave an opinion about the work, you can do it too! I created a review system if you want to talk about how much you love \"Pulp Fiction\", all this controlled with a system of users and sessions"
+        "elements": {
+            "reviews": {
+                "description": "An outstanding fullstack application that stands out among my finest achievements. Explore an extensive catalog of movies and series, including details such as release year, directors, cast, and earnings. I provide a space for opinions and reviews, allowing you to share your passion for films like 'Pulp Fiction'. All supported by a robust user and session system for an interactive experience."
             },
-            {
-                "description": "Application inspired by the FrontendMentor website. This consists of a virtual gallery where you can observe, as well as know in detail, the most famous works of history, such as \"Mona Lisa\", \"Starry Night\", \"Guernica\", \"The Swing\", among others."
+            "galleria": {
+                "description": "An application inspired by the FrontendMentor website. Explore a virtual gallery to appreciate and delve into the iconic masterpieces of history, including 'Mona Lisa,' 'Starry Night,' 'Guernica,' 'The Swing,' and more."
             },
-            {
-                "description": "This Ecommerce prototype comes, once again, from the FrontendMentor website. In it you will be able to see, with a very nice interface, the products presented by this headphones and speakers store. You can also simulate the purchase of products with a shopping cart system."
+            "audiophile": {
+                "description": "This e-commerce prototype, also derived from the FrontendMentor website, offers an appealing interface to explore products from a headphones and speakers store. Experience the buying simulation with an integrated shopping cart."
             },
-            {
-                "description": "This landing page is a remake of the one I had already built some time ago. In this page you will find information about a fictitious space travel company, from the duration of the trip to the destination, to the people in charge of making sure you arrive safely. So don't delay and order your tickets to see the moon!"
+            "space": {
+                "description": "Discover insights about a fictional space travel company, from trip duration to destination, and the team ensuring your safe journey. Book your tickets now and reach for the moon!"
             },
-            {
-                "description": "Small application to generate random passwords"
+            "password": {
+                "description": "Create random passwords using this compact app. Secure your accounts with strong and unique combinations."
             },
-            {
-                "description": "Wiki country is a small application where you can search and explore all the countries in the world. In it you will be able to find information about any country"
+            "countries": {
+                "description": "Explore the world with Wiki Country, a small app that lets you search and discover every country. Get detailed information about any nation in an instant."
             },
-            {
-                "description": "Application of a prototype of a sneakers store. It has a view where you can simulate the action of buying shoes."
+            "sneakers": {
+                "description": "Dive into the sneaker world with this shoe store prototype app. Experience the shopping feel as you browse and select shoes."
             },
-            {
-                "description": "Fictitious job listing application where you can filter the jobs by each category"
+            "jobs": {
+                "description": "Explore imaginary jobs with this job listing app. Filter jobs by category and find opportunities that suit you."
+            },
+            "yourNote": {
+                "description": "Note-taking application that allows users to manage and organize their notes efficiently. It provides user registration and authentication, a MySQL database managed through Eloquent, and route protection using middlewares. This application showcases my ability to develop practical and secure solutions using modern technologies.."
             }
-        ]
+        }
     }
 }

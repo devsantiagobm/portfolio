@@ -53,7 +53,7 @@ function Question({ question }) {
                 <ArrowIcon className={`faq__arrow ${open && "faq__arrow--open"}`}></ArrowIcon>
             </div>
 
-            <div className="faq__answer" ref={refAnswer}> {answer} </div>
+            <div className="faq__answer" ref={refAnswer}>{answer}</div>
         </div>
     )
 }

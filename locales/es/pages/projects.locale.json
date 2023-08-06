@@ -2,31 +2,34 @@
     "projects": {
         "title": "Proyectos",
         "subtitle": "Proyectos destacados y experiencias de desarrollo",
-        "elements": [
-            {
-                "description": "Aplicación fullstack que considero una de las mejores que he construido. En ella puedes encontrar casi todas las películas y series existentes hasta la fecha. En cada una puedes ver su información, como el año de lanzamiento, directores, reparto, ganancias, idioma original, entre otras cosas. ¡Si quieres dejar una opinión sobre el trabajo, también puedes hacerlo! He creado un sistema de reseñas si quieres hablar sobre cuánto amas 'Pulp Fiction', todo esto controlado con un sistema de usuarios y sesiones"
+        "elements": {
+            "reviews": {
+                "description": "Una destacada aplicación fullstack que destaco entre mis mejores logros. Explora un extenso catálogo de películas y series, incluyendo detalles como año de lanzamiento, directores, elenco y ganancias. Ofrezco un espacio para opiniones y reseñas, permitiéndote compartir tu pasión por películas como 'Pulp Fiction'. Todo respaldado por un sólido sistema de usuarios y sesiones para una experiencia interactiva."
             },
-            {
-                "description": "Aplicación inspirada en el sitio web de FrontendMentor. Consiste en una galería virtual donde puedes observar, así como conocer en detalle, las obras más famosas de la historia, como 'Mona Lisa', 'Noche Estrellada', 'Guernica', 'El Columpio', entre otras."
+            "galleria": {
+                "description": "Una aplicación inspirada en el sitio web de FrontendMentor. Explora una galería virtual para apreciar y conocer en profundidad las obras maestras más icónicas de la historia, incluyendo 'Mona Lisa', 'Noche Estrellada', 'Guernica', 'El Columpio' y más."
             },
-            {
-                "description": "Este prototipo de comercio electrónico proviene, una vez más, del sitio web de FrontendMentor. En él podrás ver, con una interfaz muy agradable, los productos presentados por esta tienda de auriculares y altavoces. También puedes simular la compra de productos con un sistema de carrito de compras."
+            "audiophile": {
+                "description": "Este prototipo de comercio electrónico, también basado en el sitio web de FrontendMentor, presenta una interfaz atractiva donde puedes explorar los productos de una tienda de auriculares y altavoces. Experimenta la simulación de compra con un carrito de compras integrado."
             },
-            {
-                "description": "Esta página de destino es una versión mejorada de la que ya había construido hace algún tiempo. En esta página encontrarás información sobre una empresa ficticia de viajes espaciales, desde la duración del viaje hasta el destino, y las personas encargadas de asegurarse de que llegues sano y salvo. ¡Así que no te demores y reserva tus boletos para ver la luna!"
+            "space": {
+                "description": "Explora datos sobre una empresa ficticia de viajes espaciales: desde la duración del viaje hasta el destino, junto con el equipo que garantiza tu seguridad. ¡Reserva tus boletos y alcanza la luna!"
             },
-            {
-                "description": "Pequeña aplicación para generar contraseñas aleatorias."
+            "password": {
+                "description": "Genera contraseñas aleatorias con esta pequeña aplicación. Asegura tus cuentas con combinaciones seguras y únicas."
             },
-            {
-                "description": "Wiki Country es una pequeña aplicación donde puedes buscar y explorar todos los países del mundo. En ella podrás encontrar información sobre cualquier país."
+            "countries": {
+                "description": "Explora el mundo con Wiki Country, una app que te permite buscar y descubrir todos los países. Obtén información detallada de cualquier nación en un instante."
             },
-            {
-                "description": "Aplicación de un prototipo de tienda de zapatillas. Tiene una vista donde puedes simular la acción de comprar zapatos."
+            "sneakers": {
+                "description": "Sumérgete en el mundo de las zapatillas con esta aplicación de prototipo de tienda. Experimenta la sensación de compra mientras exploras y seleccionas zapatos."
             },
-            {
-                "description": "Aplicación ficticia de listado de empleos donde puedes filtrar los trabajos por cada categoría."
+            "jobs": {
+                "description": "Explora empleos imaginarios con esta aplicación de listado laboral. Filtra trabajos por categoría y encuentra oportunidades que se ajusten a ti."
+            },
+            "yourNote":{
+                "description": "Aplicación de notas, que permite a los usuarios gestionar y organizar sus apuntes de manera eficiente. Ofrece registro y autenticación de usuarios, una base de datos MySQL gestionada a través de Eloquent, y protección de rutas mediante middlewares. Esta aplicación demuestra mi habilidad para desarrollar soluciones prácticas y seguras utilizando tecnologías modernas."
             }
-        ]
+        }
     }
 }

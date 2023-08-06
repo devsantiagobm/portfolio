@@ -49,6 +49,7 @@ export default function Projects() {
 
 function Modal({ selected, setSelected, selectedId }) {
     const { name, description, image, technologies, github, link } = selected
+    console.log(image);
     const [t, i18n] = useTranslation()
 
     return (
@@ -57,7 +58,10 @@ function Modal({ selected, setSelected, selectedId }) {
             <motion.div layoutId={selectedId} className="projects__modal-box" transition={{ duration: .7 }}>
                 <picture className="projects__modal-picture">
                     <Image src={`/project-images/${image}`}
-                        width={560} height={350} className="projects__modal-image"
+                        width={ 565}
+                        height={375}
+                        placeholder="blue"
+                        className="projects__modal-image"
                         alt={"Project image"} />
                 </picture>
                 <div className="projects__modal-row">
@@ -66,7 +70,7 @@ function Modal({ selected, setSelected, selectedId }) {
 
 
                     <div className="projects__modal-links" >
-                        <a className="button" href={"https://github.com/santiago220506/" + github} secondary="true" target={"_blank"} without rel="noreferrer">
+                        <a className="button" href={"https://github.com/devsantiagobm/" + github} secondary="true" target={"_blank"} without rel="noreferrer">
                             <GithubIcon></GithubIcon>
                             Github
                         </a>

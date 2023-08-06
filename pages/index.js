@@ -13,8 +13,6 @@ export default function Home() {
         <div className="hero" id="home">
             <div className="hero__main">
                 <ShowIn className="hero__information">
-
-
                     <h1 className="hero__title">
                         <div className="hero__title-first-line">
                             {t("index.first_title")}
@@ -51,7 +49,7 @@ export default function Home() {
                         >{t("index.about_button")}</Link>
                     </div>
 
-                    <div className="hero__about-column hero__about-column--list">
+                    <ul className="hero__about-column hero__about-column--list">
                         <li className="hero__about-item">
                             <span>{t("index.from_text")}</span>
                             <span>Colombia</span>
@@ -64,7 +62,7 @@ export default function Home() {
                             <span>{t("index.age_text")}</span>
                             <span>18</span>
                         </li>
-                    </div>
+                    </ul>
                 </div>
             </div>
 
@@ -77,20 +75,15 @@ export default function Home() {
                 </ShowIn>
                 <picture className="hero__picture">
                     <ShowIn>
-                        <Image src="/my-image.png"
-                            alt="Santiago's image" width={500} height={600} className="hero__portrait" />
+                        <Image src="/my-image.png" alt="Santiago's image" width={500} height={600} className="hero__portrait" />
                     </ShowIn>
                 </picture>
 
                 <div className="hero__tech">
-
                     <div className="hero__box">
-
-                        <Ball></Ball>
-                        <Ball type="second"></Ball>
-
+                        <Ball/>
+                        <Ball type="second"/>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -98,7 +91,7 @@ export default function Home() {
 }
 
 function Ball({ type }) {
-    const { t} = useTranslation()
+    const { t } = useTranslation()
     const technologies = originalTechnologies(t)
     const firstIndex = type === "second" ? 1 : 0
     const [balls, setBalls] = useState([technologies[firstIndex]])

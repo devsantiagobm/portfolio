@@ -1,4 +1,4 @@
-import { Javascript, React, Html, Css, Sass, Nextjs, Styled, Pug, Figma, Mysql, Php, Firebase, Tailwind, Github, Git, Npm } from "data/technologiesIcons.data"
+import { Javascript, React, Html, Css, Sass, Nextjs, Styled, Pug, Figma, Mysql, Php, Firebase, Tailwind, Github, Git, Npm, Laravel } from "data/technologiesIcons.data"
 
 
 
@@ -102,22 +102,37 @@ const technologiesIcons = {
         Icon: Npm,
         color: "#CC3534",
     },
+    laravel: {
+        name: "Laravel",
+        id: 17,
+        Icon: Laravel,
+        color: "#fb503b",
+    },
 }
-const { react, javascript, html, css, sass, nextjs, styled, pug, figma, mysql, php, firebase, tailwind, github, git, npm } = technologiesIcons
+
+const { react, javascript, html, css, sass, nextjs, styled, pug, figma, mysql, php, firebase, tailwind, github, git, npm, laravel } = technologiesIcons
 
 function projects(t) {
     return [
         {
             name: "Entertaiment App",
-            description: t("projects.elements.0.description"),
+            description: t("projects.elements.reviews.description"),
             image: "entertaiment-app.png",
             github: "Entertaiment-App",
             link: "https://entertaiment-app-eta.vercel.app/",
-            technologies: [react, javascript, nextjs, sass, figma],
+            technologies: [react, javascript, firebase, nextjs, sass, figma],
+        },
+        {
+            name: "YourNote",
+            description: t("projects.elements.yourNote.description"),
+            image: "your-note.png",
+            github: "laravel-notes",
+            link: "https://laravel-notes-production.up.railway.app",
+            technologies: [laravel, mysql, php, html, css, javascript]
         },
         {
             name: "Galleria",
-            description:t("projects.elements.1.description"),
+            description:t("projects.elements.galleria.description"),
             image: "galleria.png",
             github: "galleria",
             link: "https://galleria-indol.vercel.app",
@@ -125,56 +140,55 @@ function projects(t) {
         },
         {
             name: "Audiophile",
-            description: t("projects.elements.2.description"),
+            description: t("projects.elements.audiophile.description"),
             image: "audiophile.png",
             github: "audiophile",
-            link: "https://santiago220506.github.io/audiophile",
+            link: "https://devsantiagobm.github.io/audiophile",
             technologies: [react, javascript, sass, html, css]
         },
         {
             name: "Space 2.0",
-            description: t("projects.elements.3.description"),
+            description: t("projects.elements.space.description"),
             image: "space.png",
             github: "space-v2",
-            link: "https://santiago220506.github.io/space-v2",
+            link: "https://devsantiagobm.github.io/space-v2",
             technologies: [react, javascript, styled, html, css]
         },
 
         {
             name: "Password generator",
-            description: t("projects.elements.4.description"),
+            description: t("projects.elements.password.description"),
             image: "password-generator.png",
             github: "password-generator",
-            link: "https://santiago220506.github.io/password-generator",
+            link: "https://devsantiagobm.github.io/password-generator",
             technologies: [react, javascript, styled, html, css]
         },
 
 
         {
             name: "Wiki country",
-            description: t("projects.elements.5.description"),
+            description: t("projects.elements.countries.description"),
             image: "countries.png",
-            github: "Entertaiment-App",
-            link: "https://santiago220506.github.io/countries",
+            github: "countries",
+            link: "https://devsantiagobm.github.io/countries",
             technologies: [javascript, sass, html, css, pug]
         },
 
         {
             name: "Sneakers eccomerce",
-            description: t("projects.elements.6.description"),
+            description: t("projects.elements.sneakers.description"),
             image: "sneakers.png",
             github: "countries",
-            link: "https://santiago220506.github.io/sneakers",
+            link: "https://devsantiagobm.github.io/sneakers",
             technologies: [javascript, html, css, pug]
         },
         {
             name: "Job Listing",
-            description: t("projects.elements.7.description"),
+            description: t("projects.elements.jobs.description"),
             image: "jobs.png",
             github: "jobs",
-            link: "https://santiago220506.github.io/jobs",
+            link: "https://devsantiagobm.github.io/jobs",
             technologies: [javascript, html, css, pug]
-
         },
     ]
 

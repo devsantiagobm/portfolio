@@ -2,26 +2,26 @@
     "technologies": {
         "title": "Technologies",
         "subtitle": "Amount of technologies that i use every day as developer",
-        "elements": [
-            {
-                "first_title": "What can I do with ",
-                "first_content": "With React, I can create interactive and responsive user interfaces that can be easily integrated with other JavaScript libraries or frameworks.",
-                "second_title": "What have I built with ",
-                "second_content": "With React, I have created multiple web applications, including a movie and series review application, a headphone ecommerce prototype, and an art gallery.",
-                "third_title": "Why I use ",
-                "third_content": "In general, React is a powerful and versatile library that helps me build efficient, scalable, and maintainable web applications. Its main qualities are that it is easy to use, has a large community, and integrates well with other tools.",
-                "description": "The React.js framework is an open-source JavaScript framework and library developed by Facebook. It’s used for building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript"
-            },
-            {
+        "elements": {
+            "javascript": {
                 "first_title": "What can I do with ",
                 "first_content": "JavaScript is the programming language I use best to solve problems. The main use I give it is to create interactive and dynamic websites.",
                 "second_title": "What have I built with ",
                 "second_content": "In addition to projects built with React, some interesting projects built with this technology include a customer CRM, a landing page for a fictional space travel company, and a clock.",
                 "third_title": "Why I use ",
                 "third_content": "The main reason I use JavaScript is its flexibility, which, unlike other programming languages, allows you to develop applications for different platforms.",
-                "description": "JavaScript is a scripting or programming language that allows you to implement complex features on web pages displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc"
+                "description": "HTML5 is the language used to build the structure of web pages. It defines how text, images, and links appear, and allows the inclusion of videos and audio. It's the skeleton that holds everything in place and shapes the Internet."
             },
-            {
+            "react": {
+                "first_title": "What can I do with ",
+                "first_content": "With React, I can create interactive and responsive user interfaces that can be easily integrated with other JavaScript libraries or frameworks.",
+                "second_title": "What have I built with ",
+                "second_content": "With React, I have created multiple web applications, including a movie and series review application, a headphone ecommerce prototype, and an art gallery.",
+                "third_title": "Why I use ",
+                "third_content": "In general, React is a powerful and versatile library that helps me build efficient, scalable, and maintainable web applications. Its main qualities are that it is easy to use, has a large community, and integrates well with other tools.",
+                "description": "ReactJS is a JavaScript library for building interactive user interfaces in web applications. It relies on reusable components and employs a \"unidirectional data flow\" approach for more efficient change handling. Its use of the \"virtual DOM\" enhances performance by minimizing direct updates to the actual DOM. ReactJS is widely adopted due to its efficiency and active developer community in modern web development."
+            },
+            "html": {
                 "first_title": "What can I do with ",
                 "first_content": "HTML5 allows me to create web structures such as headings, paragraphs, lists, tables, forms, and more to shape and structure my web content.",
                 "second_title": "What have I built with ",
@@ -30,123 +30,133 @@
                 "third_content": "I use HTML5 because it is the current web standard for creating web pages and web applications. This means it is widely compatible with most modern web browsers and is the safest and most reliable option for creating web content.",
                 "description": "HTML stands for HyperText Markup Language. It is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes"
             },
-            {
+            "css": {
                 "first_title": "What can I do with ",
                 "first_content": "CSS is the language I use to style and present my web page or application. With CSS, I control the layout, style, and appearance of elements on my website, allowing me to create attractive designs, animations, and visual effects.",
                 "second_title": "What have I built with ",
                 "second_content": "Since CSS3 is the standard styling language in browsers, every front-end application I have built has used this technology. The most notable one is the movie and series review application.",
                 "third_title": "Why I use ",
                 "third_content": "With CSS3, I have full control over the presentation on my website, regardless of the platform or browser. Additionally, it is easy to maintain and update.",
-                "description": "CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text, the style of fonts, the ,spacing between paragraphs, how columns are sized and laid out, what background images or colors are used, layout designs,variations in display for different devices and screen sizes as well as a variety of other effects"
+                "description": "CSS3 is a web page's painter. It's responsible for adding style and colors to everything, from the size and font of letters to the layout of images and arrangement of elements. It's like the magical palette that makes pages look beautiful and appealing."
             },
-            {
+            "sass": {
                 "first_title": "What can I do with ",
                 "first_content": "SASS (Syntactically Awesome Style Sheets) is a CSS preprocessor that allows you to write CSS code more efficiently and quickly.",
                 "second_title": "What have I built with ",
                 "second_content": "SASS is the primary and favorite tool I use for styling my web applications. I have been using SASS for 1 year, and since then, I have built all my applications using this technology.",
                 "third_title": "Why I use ",
                 "third_content": "I use SASS in my day-to-day work because, as a preprocessor, it helps me save time and reduce code repetition with variables, functions, and selector nesting. Additionally, a key point is its modularization and organization system, which allows me to keep my code organized and easy to understand, especially in large projects.",
-                "description": "Sass (which stands for 'Syntactically awesome style sheets) is an extension of CSS that enables you to use things like variables, nested rules, inline imports and more. It also helps to keep things organised and allows you to create style sheets faster"
+                "description": "SASS is a styling assistant for CSS. It lets you write styles in a more organized and reusable way, with functions and variables. It's a helper that streamlines the design process on web pages."
             },
-            {
+            "nextjs": {
                 "first_title": "What can I do with ",
                 "first_content": "Next.js is the go-to framework for React. It provides server-side rendering, static page generation, performance optimization, and even integration with external APIs.",
                 "second_title": "What have I built with ",
                 "second_content": "Next.js is the technology I work with the most currently. In fact, this portfolio is built using this tool. Two of my main projects have been built with Next.js: the movie and series review application and the art gallery.",
                 "third_title": "Why I use ",
                 "third_content": "The need to use Next.js arises from React's deficiency in managing SEO on a website. Additionally, it allows us to write JavaScript and React code on the server, opening many doors for full-stack application development.",
-                "description": "Next.js is a flexible React framework that gives you building blocks to create fast web applications"
+                "description": "NextJS is an enhancer for ReactJS. It helps build faster and more efficient web applications, with easy routing and optimized rendering. It's the engine that powers React and makes pages load faster."
             },
-            {
+            "styledComponents": {
                 "first_title": "What can I do with ",
                 "first_content": "Styled Components allows me to define styles for my React components in a more intuitive and dynamic way, making code reading and maintenance easier. It also enables me to create custom themes and nest styles to create more complex styles.",
                 "second_title": "What have I built with ",
                 "second_content": "Styled Components is not my favorite way to style my applications, but I have still built small applications using this technology, such as weather apps, forms, etc.",
                 "third_title": "Why I use ",
                 "third_content": "Styled Components is a fast and declarative way to write styles, which, although it has some disadvantages compared to other tools, significantly reduces development time.",
-                "description": "Using tagged template literals and arrow functions in ES6+ and CSS, styled-components is a React-specific CSS-in-JS styling solution that creates a platform for developers to write actual CSS code to style React components, as well as in React Native"
+                "description": "Styled Components is a tool that lets you write styles directly in your React components. It makes design more modular and easier to maintain, using JavaScript to define styles."
             },
-            {
+            "pug": {
                 "first_title": "What can I do with ",
                 "first_content": "This tool allows me to write HTML code in an elegant, concise, and readable way. With this technology, I have the ability to transform maintainable, reusable, and readable Pug code into standard HTML.",
                 "second_title": "What have I built with ",
                 "second_content": "At the beginning of my learning stage, Pug was the tool I used to write HTML code. This led me to create several interesting projects with this technology, such as a country wiki, a space landing page, a shoe e-commerce prototype, among others.",
                 "third_title": "Why I use ",
                 "third_content": "Pug provides me with a simplified syntax of standard HTML. Additionally, code reuse and efficiency in writing are factors that led me to use this tool as one of my favorites.",
-                "description": "Pug.js, formerly known as Jade, is a templating engine designed to render HTML in server-side technologies such as Node.js. Like any JavaScript templating engine, Pug.js supports writing reusable HTML code and rendering dynamic data"
+                "description": "Pug is a language that simplifies writing HTML. It enables creating cleaner and more concise page structures, using less code than conventional HTML."
             },
-            {
+            "figma": {
                 "first_title": "What can I do with ",
                 "first_content": "Figma is a design tool commonly used for creating user interfaces. With it, I can create attractive interfaces that, although they may not be the most sophisticated since I'm not a designer, serve their purpose in the product development process.",
                 "second_title": "What have I built with ",
                 "second_content": "With Figma, I have designed several of my own applications, such as my first portfolio, a customer management system, and my favorite: a real estate agency. All from scratch.",
                 "third_title": "Why I use ",
                 "third_content": "Figma is a cloud-based design tool that allows me to create any user interface from my own browser. Additionally, it is a comprehensive design tool, meaning it is possible to create a product's entire identity using Figma. Lastly, it is the most comfortable and user-friendly design tool I have used.",
-                "description": "Figma is a powerful design tool that helps you to create anything: websites, applications, logos, and much more"
+                "description": "Figma is a design tool that helps create and collaborate on user interface designs and prototypes. It makes creating appealing designs easier and enables teams to work together in real-time."
             },
-            {
+            "mysql": {
                 "first_title": "What can I do with ",
                 "first_content": "MySQL is possibly the most famous database management system in the world. With it, I have the ability to model databases from scratch, perform DDL and DML queries, and even change the logic of the database.",
                 "second_title": "What have I built with ",
                 "second_content": "My journey in the back-end hasn't been as long as in the front-end, but I have still created and modeled some databases, such as a manager for buying and selling houses, a contacts system, and a manager for a veterinary clinic.",
                 "third_title": "Why I use ",
                 "third_content": "I use this database management system because, in addition to being open source and free, its compatibility with almost all programming languages provides freedom in development. It is also worth mentioning that it is a reliable platform due to its large community and the time it has been consolidated in the market.",
-                "description": "MySQL, the most popular Open Source SQL database management system, is developed, distributed, and supported by Oracle Corporation"
+                "description": "MySQL is a database management system that stores and organizes data on websites. It's used with PHP and other languages to manage information efficiently."
             },
-            {
+            "php": {
                 "first_title": "What can I do with ",
                 "first_content": "PHP is the only back-end programming language in which I have enough skills to build decent systems. Using this technology, I have the ability to manage databases, allowing me to create CRUD (Create, Read, Update, Delete) systems.",
                 "second_title": "What have I built with ",
                 "second_content": "My journey in the back-end hasn't been as long as in the front-end, but I have still created some basic systems, such as a manager for buying and selling houses or a contacts system.",
                 "third_title": "Why I use ",
                 "third_content": "PHP is a high-level programming language. This means that its learning curve is low compared to other programming languages. This was the main reason why I learned to use PHP as a back-end language.",
-                "description": "PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML"
+                "description": "PHP is a programming language used to build dynamic websites. It can generate custom content and work with databases to store and retrieve information."
             },
-            {
+            "firebase": {
                 "first_title": "What can I do with ",
                 "first_content": "Firebase is a web and mobile platform that allows developers to quickly and easily build back-end systems. With this tool, I have the ability to create session systems, manage users, information, and files.",
                 "second_title": "What have I built with ",
                 "second_content": "With the help of Firebase, I have created what I consider my best personal project: a movie and series review application. In it, I have learned a lot about Firebase, its functioning, its limitations, and above all, what can be achieved using this technology.",
                 "third_title": "Why I use ",
                 "third_content": "It is a free platform that offers a wide variety of services and useful tools for mobile or web development. It is also easy to use and learn, with a faster learning curve than a back-end programming language. Although, obviously, this comes with limitations.",
-                "description": "Google Firebase is a Google-backed application development software that enables developers to develop iOS, Android and Web apps. Firebase provides tools for tracking analytics, reporting and fixing app crashes, creating marketing and product experiment"
+                "description": "Firebase is a cloud platform that assists developers in building web and mobile applications. It provides tools for authentication, real-time data storage, and more."
             },
-            {
+            "tailwind": {
                 "first_title": "What can I do with ",
                 "first_content": "TailwindCSS is another technique or technology for styling web pages. With it, I can create styles for 100% of my application. Although it is not my favorite option for creating styles, I always consider it if the project is not going to grow too much.",
                 "second_title": "What have I built with ",
                 "second_content": "With the help of this tool, I have created several basic applications, such as forms, filters, CRMs, among others.",
                 "third_title": "Why I use ",
                 "third_content": "TailwindCSS is a technology that provides productivity and flexibility when writing CSS code. In addition, its limitations make it easier to create responsive designs.",
-                "description": "Tailwind CSS makes it quicker to write and maintain the code of your application. By using this utility-first framework, you don't have to write custom CSS to style your application"
+                "description": "Tailwind is an interface design framework that simplifies layout and styling on websites. It offers predefined classes that make quick and responsive design easier."
             },
-            {
+            "github": {
                 "first_title": "What can I do with ",
                 "first_content": "GitHub is an online platform primarily used to host and manage software projects. I usually use the platform to manage my own projects and sometimes use it as documentation for certain projects.",
                 "second_title": "What have I built with ",
                 "second_content": "With GitHub, I have managed each of the projects I have uploaded to the web.",
                 "third_title": "Why I use ",
                 "third_content": "GitHub and its ecosystem are the most widely used tool on the web for managing code, and this is not in vain. This technology has multiple functions and services that allow me as a developer to change versions in my projects, manage who can change the content of my files, among other things.",
-                "description": "GitHub is a website and cloud-based service that helps developers store and manage their code, as well as track and control changes to their code"
+                "description": "GitHub is a platform for managing and sharing programming code. It enables developers to collaborate on projects, track changes, and maintain version history."
             },
-            {
+            "git": {
                 "first_title": "What can I do with ",
                 "first_content": "Git is another tool for managing projects, their versions, and their changes. This tool is essential for the development and subsequent maintenance of any application. That being said, I use it every day to create new projects, edit the ones already created, and sometimes delete them.",
                 "second_title": "What have I built with ",
                 "second_content": "With Git, I have managed each of the projects I have uploaded to the web.",
                 "third_title": "Why I use ",
                 "third_content": "Git allows collaboration on a project among multiple developers. This is fundamental in the development of a product. In addition, its versioning system allows me to keep track of any issues at any time.",
-                "description": "Git is a DevOps tool used for source code management. It is a free and open-source version control system used to handle small to very large projects efficiently"
+                "description": "Git is a version control system that tracks and manages changes in programming code. It simplifies collaboration, history tracking, and merging contributions in projects."
             },
-            {
+            "npm": {
                 "first_title": "What can I do with ",
                 "first_content": "NPM is a package manager that allows me to easily manage packages in my project. It is a fundamental tool in modern web development.",
                 "second_title": "What have I built with ",
                 "second_content": "Since my early days learning React, I have used NPM in one way or another. This means that all projects built in React use NPM.",
                 "third_title": "Why I use ",
                 "third_content": "NPM is the standard package manager for Node.js in any project. Although there are alternatives, this option is the most stable, the one with the most information, and also the most widely used.",
-                "description": "NPM stands for Node Package Manager. It's a library and registry for JavaScript software packages. npm also has command-line tools to help you install the different packages and manage their dependencies. npm is free and relied on by over 11 million developers worldwide"
+                "description": "Npm (Node Package Manager) is a tool that helps developers manage the software libraries their project needs. It allows easy installation, updating, and sharing of components."
+            },
+            "laravel": {
+                "first_title": "What can I do with ",
+                "first_content": "I use its MVC (Model-View-Controller) architecture to develop applications with an organized and maintainable structure. I can also build RESTful API applications, providing endpoints for communication with other applications and services.",
+                "second_title": "What have I built with ",
+                "second_content": "One of the standout applications I've built with Laravel is a note-taking platform. In this application, I manage user registration and authentication, the database (using MySQL) with Eloquent as the ORM, and secure routes using Laravel's provided middlewares..",
+                "third_title": "Why I use ",
+                "third_content": "Its focus on code readability and automation of common tasks allows me to be more productive. Plus, its active community and wealth of resources mean there's always support and new opportunities to learn.",
+                "description": "Laravel is a modern PHP framework that stands out for its elegant syntax and wide range of features, making it easy to develop robust and scalable applications. It offers a solid MVC architecture, simple database management, flexible routing, and a comprehensive authentication system."
+
             }
-        ]
+        }
     }
 }
