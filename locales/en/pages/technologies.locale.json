@@ -10,7 +10,7 @@
                 "second_content": "In addition to projects built with React, some interesting projects built with this technology include a customer CRM, a landing page for a fictional space travel company, and a clock.",
                 "third_title": "Why I use ",
                 "third_content": "The main reason I use JavaScript is its flexibility, which, unlike other programming languages, allows you to develop applications for different platforms.",
-                "description": "HTML5 is the language used to build the structure of web pages. It defines how text, images, and links appear, and allows the inclusion of videos and audio. It's the skeleton that holds everything in place and shapes the Internet."
+                "description": "JavaScript is a programming language that is used on websites to make them interactive and dynamic. It allows you to add functions such as pop-ups, animations and validations in forms, among many other things. It is in charge of giving it life and making web pages respond to what you do"
             },
             "react": {
                 "first_title": "What can I do with ",

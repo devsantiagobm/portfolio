@@ -148,8 +148,6 @@
 
     &__main{
         display: grid;
-        align-items: baseline;
-        justify-content: baseline;
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas: "table information";
         margin: 5dvh 0 0;
