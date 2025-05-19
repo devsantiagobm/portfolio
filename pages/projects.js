@@ -49,7 +49,6 @@ export default function Projects() {
 
 function Modal({ selected, setSelected, selectedId }) {
     const { name, description, image, technologies, github, link } = selected
-    console.log(image);
     const [t, i18n] = useTranslation()
 
     return (

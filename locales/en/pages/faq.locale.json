@@ -1,33 +1,31 @@
 {
-    "faq": {
-        "title": "Frequently Asked Questions",
-
-
-        "questions": [
-            {
-                "ask": "Have you had work experience?",
-                "answer": "So far, I haven't had the chance to work formally within a company. Consequently, I am actively seeking a part-time internship position, whether it be on-site or remote. If you're interested in having a conversation, please don't hesitate to get in touch with me. I'm looking forward to connecting with you!"
-            },
-            {
-                "ask": "What languages do you speak?",
-                "answer":"I was born in Colombia, so I am a native Spanish speaker. Currently, I am studying English and I am at the B1 level with the goal of reaching C1 level soon."
-            },
-            {
-                "ask": "How can I contact you?",
-                "answer": "If you are interested in getting in touch with me, you can find various ways to do so in the button at the top right corner."
-            },
-            {
-                "ask": "Have you studied a professional career?",
-                "answer": "I have studied a technical degree in software analysis and development. I am currently studying a career in the same field."
-            },
-            {
-                "ask": "What do you enjoy about being a developer?",
-                "answer": "As a developer, I have the ability to create valuable products, giving me the satisfaction of contributing to transforming society. I enjoy seeing progress and improvements in various aspects, whether it's my skills, a project I'm working on, or the quality of people's lives. All of this is something that being a developer provides me."
-            },
-            {
-                "ask": "Have you worked as a freelancer?",
-                "answer": "No, I have not had experience working as a freelancer thus far. My focus has been on honing my skills through personal projects and learning in educational settings. I am eager to explore opportunities in both freelance projects and collaborative roles in the future."
-            }            
-        ]
-    }
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "ask": "Have you had any work experience?",
+        "answer": "Yes, I’ve worked as a frontend developer both as a freelancer and in a corporate environment. I started with a freelance project in the crypto sector for an international client, and later joined Pragma, one of the largest tech companies in Colombia, where I contributed to the development and maintenance of internal applications."
+      },
+      {
+        "ask": "What languages do you speak?",
+        "answer": "I'm a native Spanish speaker from Colombia. I currently have a B1 level of English and I'm actively working to reach an advanced C1 level."
+      },
+      {
+        "ask": "How can I contact you?",
+        "answer": "You can reach me using the button in the top right corner, where you’ll find links to my email and social networks."
+      },
+      {
+        "ask": "Do you have a professional degree?",
+        "answer": "Yes, I completed both the technical and technological degrees in Software Analysis and Development at SENA."
+      },
+      {
+        "ask": "What do you enjoy about being a developer?",
+        "answer": "I enjoy building products that have a real impact. Seeing how my skills help solve problems, improve user experiences, or make processes more efficient is very rewarding. I’m driven by continuous growth and the ability to deliver value through code."
+      },
+      {
+        "ask": "Have you worked as a freelancer?",
+        "answer": "Yes, I worked as a freelancer on a cryptocurrency-related project for an international client. It allowed me to work independently, understand business requirements, and deliver functional frontend solutions."
+      }
+    ]
+  }
 }

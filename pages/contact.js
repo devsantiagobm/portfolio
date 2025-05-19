@@ -57,11 +57,7 @@ const buttons = [
     {
         Icon: WhatsappIcon,
         link: "https://api.whatsapp.com/send?phone=573242990765&text=Let%27s%20work%20together!%F0%9F%98%80"
-    },
-    {
-        Icon: DiscordIcon,
-        link: "https://discord.com/channels/@me/710966828767117372"
-    },
+    }
 ]
 
 
@@ -96,7 +92,7 @@ function Form({ setFormSent }) {
 
     async function sendEmail() {
         try {
-            await emailjs.sendForm("service_lkm8cy7", 'template_gq3aw28', form.current, 'vwnGhCUHAbKy_X-0J')
+            await emailjs.sendForm("service_1zxkdf9", 'template_gq3aw28', form.current, 'vwnGhCUHAbKy_X-0J')
             setFormSent(true)
         } catch (error) {
             setFormError(error.text)

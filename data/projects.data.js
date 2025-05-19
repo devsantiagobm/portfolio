@@ -1,4 +1,4 @@
-import { Javascript, React, Html, Css, Sass, Nextjs, Styled, Pug, Figma, Mysql, Php, Firebase, Tailwind, Github, Git, Npm, Laravel } from "data/technologiesIcons.data"
+import { Javascript, React, Html, Css, Sass, Nextjs, Styled, Pug, Figma, Mysql, Php, Firebase, Tailwind, Github, Git, Npm, Laravel, Node, Express } from "data/technologiesIcons.data"
 
 
 
@@ -40,12 +40,7 @@ const technologiesIcons = {
         Icon: Nextjs,
         color: "#000",
     },
-    styled: {
-        name: "Styled Components",
-        id: 7,
-        Icon: Styled,
-        color: "#dc78b6",
-    },
+
     pug: {
         name: "Pug",
         id: 8,
@@ -108,9 +103,21 @@ const technologiesIcons = {
         Icon: Laravel,
         color: "#fb503b",
     },
+    node: {
+        name: "NodeJS",
+        id: 18,
+        Icon: Node,
+        color: "#339933",
+    },
+    express: {
+        name: "ExpressJS",
+        id: 19,
+        Icon: Express,
+        color: "#303030",
+    },
 }
 
-const { react, javascript, html, css, sass, nextjs, styled, pug, figma, mysql, php, firebase, tailwind, github, git, npm, laravel } = technologiesIcons
+const { react, javascript, html, css, sass, nextjs, mysql,  node, express} = technologiesIcons
 
 function projects(t) {
     return [
@@ -120,15 +127,15 @@ function projects(t) {
             image: "entertaiment-app.png",
             github: "Entertaiment-App",
             link: "https://entertaiment-app-eta.vercel.app/",
-            technologies: [react, javascript, firebase, nextjs, sass, figma],
+            technologies: [react, javascript, nextjs, sass],
         },
         {
-            name: "YourNote",
-            description: t("projects.elements.yourNote.description"),
-            image: "your-note.png",
-            github: "laravel-notes",
-            link: "https://laravel-notes-production.up.railway.app",
-            technologies: [laravel, mysql, php, html, css, javascript]
+            name: "Devlinks",
+            description: t("projects.elements.devlinks.description"),
+            image: "devlinks.png",
+            github: "devlinks",
+            link: "http://devlinks-ten.vercel.app/auth/login",
+            technologies: [react, javascript, mysql, nextjs, sass, node, express],
         },
         {
             name: "Galleria",
@@ -152,7 +159,7 @@ function projects(t) {
             image: "space.png",
             github: "space-v2",
             link: "https://devsantiagobm.github.io/space-v2",
-            technologies: [react, javascript, styled, html, css]
+            technologies: [react, javascript, html, css]
         },
 
         {
@@ -161,7 +168,7 @@ function projects(t) {
             image: "password-generator.png",
             github: "password-generator",
             link: "https://devsantiagobm.github.io/password-generator",
-            technologies: [react, javascript, styled, html, css]
+            technologies: [react, javascript, html, css]
         },
 
 
@@ -171,7 +178,7 @@ function projects(t) {
             image: "countries.png",
             github: "countries",
             link: "https://devsantiagobm.github.io/countries",
-            technologies: [javascript, sass, html, css, pug]
+            technologies: [javascript, sass, html, css]
         },
 
         {
@@ -180,7 +187,7 @@ function projects(t) {
             image: "sneakers.png",
             github: "countries",
             link: "https://devsantiagobm.github.io/sneakers",
-            technologies: [javascript, html, css, pug]
+            technologies: [javascript, html, css]
         },
         {
             name: "Job Listing",
@@ -188,7 +195,7 @@ function projects(t) {
             image: "jobs.png",
             github: "jobs",
             link: "https://devsantiagobm.github.io/jobs",
-            technologies: [javascript, html, css, pug]
+            technologies: [javascript, html, css]
         },
     ]
 

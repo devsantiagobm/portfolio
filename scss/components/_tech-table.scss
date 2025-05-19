@@ -21,9 +21,16 @@
 
         @media (hover:hover) {
 
-            &:hover .tech-table__icon,
-            &:hover .tech-table__name {
+            &:hover:not(&--selected) .tech-table__icon,
+            &:hover:not(&--selected) .tech-table__name {
                 transform: translateY(-6px);
+            }
+        }
+        
+        &--selected {
+            .tech-table__icon,
+            .tech-table__name {
+                transform: scale(1.1) translateY(-6px);
             }
         }
 

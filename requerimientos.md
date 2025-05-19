@@ -1,1 +1,0 @@
-# Optimizar el renderizado de la aplicación

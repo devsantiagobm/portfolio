@@ -3,7 +3,7 @@ import technologies from "data/technologies.data"
 
 import { useTranslation } from "react-i18next"
 
-export default function Carrousel({ setIndexSelected, informationBox }) {
+export default function Carrousel({ indexSelected,setIndexSelected, informationBox }) {
     const [t] = useTranslation()
 
 
@@ -28,9 +28,9 @@ export default function Carrousel({ setIndexSelected, informationBox }) {
 
                         return (
                             <div key={id + name + i}
-                                className="tech-table__item"
+                                className={`tech-table__item ${indexSelected === i && "tech-table__item--selected"}`}
                                 style={{ "--custom-color": color }}
-                                onClick={() => handleOnClick(i )} // Id in our list starts at 1, not at 0
+                                onClick={() => handleOnClick(i)} // Id in our list starts at 1, not at 0
                             >
                                 <Icon className="tech-table__icon"></Icon>
                                 <span className="tech-table__name">{name} </span>

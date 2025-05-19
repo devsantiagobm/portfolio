@@ -1,10 +1,14 @@
 @use "../abstracts";
 
 .hero {
-    min-height: 110vh;
+    height: calc(100dvh - 99px);
+    max-height: calc(100dvh - 99px);
+    overflow-y: hiddden;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 45%;
+    margin: 0 auto;
+
 
     &__title-first-line {
         @include abstracts.flexbox(row, 16px, flex-start, center);
@@ -17,6 +21,7 @@
     }
 
 
+    
     &__information {
         padding: 0 var(--sections-padding) 0 var(--sections-padding);
         @include abstracts.flexbox(column, 24px, center);
@@ -99,6 +104,7 @@
         height: 100%;
         position: relative;
         background-color: var(--primary-soft);
+        padding: 24px 0 0;
         @include abstracts.flexbox(column, 0, space-between, center);
 
         &-title {
@@ -114,8 +120,9 @@
 
     &__portrait {
         min-width: 0;
-        width: 100%;
-        max-width: 350px;
+        margin: 0 auto;
+        width: clamp(300px,60%, 550px);
+        // max-width: 350px;
     }
 
     &__tech {
@@ -220,5 +227,13 @@
             width: 48px;
             font-size: 1.5rem;
         }
+    }
+}
+
+
+
+@media screen and (min-width: 1700px){
+    .hero{
+        max-width: calc(100% - var(--sections-padding) * 2);
     }
 }

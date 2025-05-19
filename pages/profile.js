@@ -9,10 +9,11 @@ export default function Profile() {
 
     return (
         <ShowIn className="profile">
-            <div className="profile__column">
-                <h2 className="profile__title title">{t("profile.title")}</h2>
-            </div>
 
+            <div className="profile__header">
+                <h2 className="title">{t("profile.title")}</h2>
+                    <p className="subtitle">{t("profile.subtitle")}</p>
+            </div>
 
             <div className="profile__column">
                 {

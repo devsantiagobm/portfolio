@@ -5,21 +5,48 @@
         "elements": {
             "react": {
                 "first_title": "¿Qué puedo hacer con ",
-                "first_content": "Con React, puedo crear interfaces de usuario interactivas y con gran capacidad de respuesta que se pueden integrar fácilmente con otras bibliotecas o marcos de JavaScript.",
+                "first_content": "Con React, puedo crear interfaces de usuario interactivas, dinámicas y reutilizables, ideales para aplicaciones modernas. Su flexibilidad permite integrarlo con otras bibliotecas o frameworks para adaptarse a distintos tipos de proyectos.",
                 "second_title": "¿Qué he construido con ",
-                "second_content": "Con react he creado múltiples aplicaciones web, entre las más destacadas están una aplicación para críticas de películas y series, un prototipo de ecommerce para auriculares, y una galería de arte",
+                "second_content": "He utilizado React tanto en proyectos personales como profesionales. Entre los personales destacan una aplicación para críticas de películas y series, un prototipo de ecommerce de auriculares, una galería de arte y una app para gestionar links personales. Profesionalmente, lo he usado como freelancer en un proyecto cripto y en mi última empresa para mantener y mejorar aplicaciones internas, incluyendo una app para gestionar el ingreso de nuevas personas a la organización.",
                 "third_title": "¿Por qué utilizo ",
-                "third_content": "En general, React es una biblioteca potente y versátil que me ayuda a construir aplicaciones web eficientes, escalables y mantenibles. Sus principales cualidades son que es fácil de usar, tiene una amplia comunidad y también se integra fácilmente con otras herramientas.",
-                "description": "ReactJS es una biblioteca JavaScript para crear interfaces de usuario interactivas en aplicaciones web. Se basa en componentes reutilizables y utiliza un enfoque de \"unidireccionalidad de datos\" para un manejo más eficiente de los cambios. Su uso del \"DOM virtual\" mejora el rendimiento al minimizar las actualizaciones directas en el DOM real. "
+                "third_content": "React me permite desarrollar aplicaciones web rápidas, escalables y organizadas. Su ecosistema, la reutilización de componentes y su comunidad activa lo convierten en una herramienta esencial para el desarrollo frontend moderno, tanto en proyectos personales como corporativos.",
+                "description": "ReactJS es una biblioteca de JavaScript desarrollada por Meta para construir interfaces de usuario basadas en componentes. Utiliza un enfoque de flujo de datos unidireccional y un DOM virtual que mejora el rendimiento al reducir las manipulaciones directas del DOM. Es ampliamente usada en el desarrollo frontend gracias a su eficiencia y modularidad."
             },
             "javascript": {
                 "first_title": "¿Qué puedo hacer con ",
-                "first_content": "JavaScript es el lenguaje de programación que mejor utilizo para resolver problemas. El principal uso que le doy es crear sitios web interactivos y dinámicos.",
+                "first_content": "JavaScript es el lenguaje de programación que mejor domino y utilizo para crear sitios web interactivos, dinámicos y funcionales. Me permite controlar desde simples animaciones hasta la lógica compleja de aplicaciones completas.",
                 "second_title": "¿Qué he construido con ",
-                "second_content": "Además de los proyectos construidos con React, algunos proyectos interesantes construidos con esta tecnología han sido: un CRM de clientes, una página de aterrizaje para una ficticia compañía de viajes espaciales y un reloj.",
+                "second_content": "Además de los proyectos construidos con React y NextJS, he utilizado JavaScript en un CRM de clientes, una landing page para una ficticia empresa de viajes espaciales, un reloj digital, y funcionalidades clave en varios proyectos personales y profesionales.",
                 "third_title": "¿Por qué utilizo ",
-                "third_content": "La principal razón por la que uso JavaScript es su flexibilidad, la cual, a diferencia de otros lenguajes de programación, te permite desarrollar aplicaciones para diferentes plataformas.",
-                "description": "JavaScript es un lenguaje de programación que se usa en sitios web para hacerlos interactivos y dinámicos. Permite agregar funciones como pop-ups, animaciones y validaciones en formularios, entre muchas otras cosas. Es el encargado de darle vida y hacer que las páginas web respondan a lo que haces."
+                "third_content": "Uso JavaScript por su versatilidad. Es el lenguaje que conecta todos los aspectos de una aplicación web, y su ecosistema permite desarrollar para frontend, backend, móviles y más, con una gran comunidad y soporte.",
+                "description": "JavaScript es un lenguaje de programación esencial en el desarrollo web. Permite agregar interactividad, dinamismo y lógica en sitios y aplicaciones. Desde formularios inteligentes hasta interacciones en tiempo real, es la base del comportamiento de una web moderna."
+            },
+            "nodejs": {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "Con Node.js puedo construir servidores eficientes y escalables utilizando JavaScript en el backend. Me permite manejar múltiples conexiones de forma simultánea gracias a su modelo asincrónico y basado en eventos.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "Con Node.js he desarrollado APIs RESTful bien estructuradas, implementado autenticaciones seguras y creado funcionalidades en tiempo real con sockets. Algunos de los proyectos incluyen una app para generar links personales, una aplicación para planificación ágil tipo planning poker, y el backend de un sistema completo para una clínica de cosmetología.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "Node.js me permite unificar el stack de desarrollo usando JavaScript tanto en frontend como backend. Es rápido, ligero y tiene una enorme comunidad con muchas bibliotecas útiles. Es ideal para construir aplicaciones modernas de forma eficiente.",
+                "description": "Node.js es un entorno de ejecución para JavaScript del lado del servidor. Se basa en el motor V8 de Chrome y permite construir aplicaciones rápidas y escalables gracias a su modelo no bloqueante. Es una opción popular para crear APIs, servicios web y aplicaciones en tiempo real."
+            },
+            "express": {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "Con Express puedo crear servidores web robustos y flexibles de manera rápida. Me permite definir rutas, manejar peticiones y respuestas HTTP fácilmente, y organizar el backend de forma clara y modular.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "He usado Express en conjunto con Node.js para desarrollar APIs RESTful, gestionar sesiones de usuario, y estructurar proyectos medianos con múltiples módulos. Algunos ejemplos incluyen una aplicación para cosmetología, un sistema de planning poker en tiempo real, y un generador de enlaces personalizados.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "Express me brinda una forma sencilla pero poderosa de crear servidores y estructurar el backend de una aplicación. Es minimalista, extensible y tiene una gran comunidad, lo que facilita el desarrollo y mantenimiento del código.",
+                "description": "Express.js es un framework minimalista y flexible para Node.js que proporciona un conjunto robusto de características para el desarrollo de aplicaciones web y APIs. Facilita la gestión de rutas, middleware y la integración con bases de datos o servicios externos."
+            },
+            "angular": {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "Con Angular, puedo desarrollar aplicaciones web empresariales de gran escala con una arquitectura sólida y mantenible. Su sistema basado en módulos y componentes facilita la creación y organización de aplicaciones complejas.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "Con Angular he trabajado profesionalmente en aplicaciones corporativas internas. He añadido funcionalidades, dado mantenimiento y trabajado en aplicaciones como un sistema de planning poker y otras herramientas empresariales con procesos de facturación o launchers que dirigen a otras plataformas internas.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "Angular ofrece una estructura robusta y herramientas integradas que facilitan el desarrollo de aplicaciones complejas. Su sistema de tipado con TypeScript, su CLI poderosa y sus buenas prácticas fomentan la escalabilidad y el mantenimiento.",
+                "description": "Angular es un framework de desarrollo web basado en TypeScript creado por Google. Permite construir aplicaciones de una sola página (SPA) utilizando una arquitectura basada en componentes, servicios e inyección de dependencias. Es ideal para desarrollar soluciones empresariales gracias a su robustez y escalabilidad."
             },
             "html": {
                 "first_title": "¿Qué puedo hacer con ",
@@ -50,12 +77,12 @@
             },
             "nextjs": {
                 "first_title": "¿Qué puedo hacer con ",
-                "first_content": "NextJS es el marco de trabajo por excelencia para React. Me proporciona renderizado en el lado del servidor, generación de páginas estáticas, optimización de rendimiento e incluso integración con APIs externas.",
+                "first_content": "NextJS es el framework ideal para potenciar aplicaciones React. Permite renderizado en el servidor, generación de sitios estáticos, optimización del rendimiento y soporte para APIs, todo con una experiencia de desarrollo fluida.",
                 "second_title": "¿Qué he construido con ",
-                "second_content": "NextJS es la tecnología con la que trabajo más en la actualidad. De hecho, este portafolio está construido utilizando esta herramienta. Dos de mis proyectos principales han sido construidos en NextJS: la aplicación de reseñas de películas y series, y la galería de arte.",
+                "second_content": "NextJS es la herramienta que más utilizo actualmente. Este portafolio, una aplicación de reseñas de películas y series, una galería de arte y un proyecto freelance del sector cripto están construidos con NextJS, aprovechando su capacidad para renderizar rápido, optimizar el rendimiento y mejorar el SEO.",
                 "third_title": "¿Por qué utilizo ",
-                "third_content": "La necesidad de utilizar NextJS surge de la deficiencia de React para gestionar el SEO en un sitio web. Además, nos permite escribir código JavaScript y React en el servidor, lo que nos abre muchas puertas a la hora de desarrollar aplicaciones full stack.",
-                "description": "NextJS es como un mejorador de ReactJS. Ayuda a construir aplicaciones web más rápidas y eficientes, con enrutamiento sencillo y renderización optimizada. Es como el motor que potencia React y hace que las páginas carguen más rápido."
+                "third_content": "Uso NextJS porque cubre las limitaciones de React en cuanto a SEO y rendimiento. Además, me permite trabajar de forma fullstack utilizando JavaScript y React también en el backend, lo que agiliza el desarrollo de aplicaciones modernas.",
+                "description": "NextJS es un framework construido sobre React que mejora el rendimiento, facilita el enrutamiento y permite renderizar contenido desde el servidor. Es ideal para construir aplicaciones modernas con tiempos de carga rápidos y buen SEO."
             },
             "styledComponents": {
                 "first_title": "¿Qué puedo hacer con ",
@@ -155,7 +182,6 @@
                 "third_title": "¿Por qué utilizo ",
                 "third_content": "Su enfoque en la legibilidad del código y la automatización de tareas comunes me permite ser más productivo. Además, su comunidad activa y la abundancia de recursos significan que siempre hay soporte y nuevas oportunidades para aprender.",
                 "description": "Laravel es un moderno framework de PHP. Destaca por su elegante sintaxis y su amplia gama de características que facilitan la creación de aplicaciones robustas y escalables. Ofrece una arquitectura MVC sólida, manejo sencillo de bases de datos, enrutamiento flexible y un sistema de autenticación completo."
-
             }
         }
     }

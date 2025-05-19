@@ -20,7 +20,7 @@ export default function Technologies() {
             </ShowIn>
 
             <div className="technologies__main">
-                <TechnologiesTable setIndexSelected={setIndexSelected} informationBox={informationBox}></TechnologiesTable>
+                <TechnologiesTable indexSelected={indexSelected} setIndexSelected={setIndexSelected} informationBox={informationBox}></TechnologiesTable>
                 <TechInformation selected={technologies[indexSelected]} informationBox={informationBox} />
             </div>
 

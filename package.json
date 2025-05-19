@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sass": "sass scss/index.scss styles/globals.css --style=compressed --watch --no-source-map"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",

@@ -1,34 +1,31 @@
 {
-    "faq": {
-        "title": "Preguntas frecuentes",
-
-
-        "questions": [
-            {
-                "ask": "¿Has tenido experiencia laboral?",
-                "answer": "Hasta el momento, no he tenido la oportunidad de emplearme en una empresa de manera formal. Como resultado, me encuentro en la búsqueda de un puesto a tiempo parcial, ya sea en modalidad presencial (Medellín) o remota. Si consideras la posibilidad de entablar una conversación, estaré encantado de que te pongas en contacto conmigo. ¡Espero poder hablar contigo!"
-            },
-            {
-                "ask": "¿Qué lenguajes hablas?",
-                "answer": "Soy nativo de Colombia y tengo fluidez en español. En la actualidad, me encuentro en proceso de estudio del idioma inglés, encontrándome en el nivel B1 y trabajando con dedicación para alcanzar el nivel C1 en un futuro próximo."
-            },
-            {
-                "ask": "¿Cómo puedo contactarte?",
-                "answer": "Si estás interesado en contactarme, puedes encontrar diversas formas de hacerlo en el botón ubicado en la esquina superior derecha."
-            },
-            {
-                "ask": "¿Tienes una carrera profesional?",
-                "answer": "He cursado una carrera técnica en análisis y desarrollo de software. En la actualidad, me encuentro estudiando una carrera en el mismo campo."
-            },
-            {
-                "ask": "¿Qué disfrutas de ser desarrollador?",
-                "answer": "Como desarrollador, tengo la capacidad de crear productos de valor, lo que me brinda la satisfacción de contribuir a transformar la sociedad. Me agrada observar progresos y mejoras en distintos aspectos, ya sean mis habilidades, un proyecto en el que trabajo o la calidad de vida de las personas. Todo esto es algo que ser desarrollador me proporciona."
-            },
-            {
-                "ask": "¿Has trabajado como freelancer?",
-                "answer": "No, hasta el momento no he tenido experiencia trabajando como freelancer. Mi enfoque ha estado en desarrollar mis habilidades a través de proyectos personales y de aprendizaje en entornos educativos. Estoy ansioso por explorar oportunidades tanto en proyectos independientes como en roles colaborativos en el futuro."
-            }
-            
-        ]
-    }
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "questions": [
+      {
+        "ask": "¿Has tenido experiencia laboral?",
+        "answer": "Sí, he trabajado como desarrollador frontend tanto de forma freelance como en el ámbito corporativo. Inicialmente participé en un proyecto freelance en el sector cripto para un cliente internacional, y luego trabajé en Pragma, una de las empresas tecnológicas más grandes de Colombia, donde contribuí al desarrollo y mantenimiento de aplicaciones internas."
+      },
+      {
+        "ask": "¿Qué lenguajes hablas?",
+        "answer": "Soy nativo de Colombia y tengo fluidez en español. Actualmente tengo un nivel intermedio (B1) de inglés, y sigo trabajando activamente para alcanzar un nivel avanzado (C1)."
+      },
+      {
+        "ask": "¿Cómo puedo contactarte?",
+        "answer": "Puedes contactarme a través del botón ubicado en la esquina superior derecha, donde encontrarás enlaces a mis redes y correo electrónico."
+      },
+      {
+        "ask": "¿Tienes una carrera profesional?",
+        "answer": "Sí, finalicé tanto la carrera técnica como la tecnológica en Análisis y Desarrollo de Software en el SENA."
+      },
+      {
+        "ask": "¿Qué disfrutas de ser desarrollador?",
+        "answer": "Disfruto poder construir productos que tienen un impacto real. Ver cómo mis habilidades ayudan a resolver problemas, mejorar experiencias o facilitar procesos me resulta muy gratificante. Me motiva crecer constantemente y aportar valor con cada línea de código."
+      },
+      {
+        "ask": "¿Has trabajado como freelancer?",
+        "answer": "Sí, trabajé como freelancer en un proyecto de criptomonedas para un cliente internacional. Esta experiencia me permitió gestionar tareas de forma autónoma, comprender requerimientos de negocio y entregar soluciones funcionales con tecnologías frontend modernas."
+      }
+    ]
+  }
 }

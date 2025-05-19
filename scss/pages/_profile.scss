@@ -2,21 +2,23 @@
 
 .profile{
     padding: var(--pages-padding);
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: column;
 
     &__column{
         position: relative;
-
-        &:nth-child(2){
-            @include abstracts.flexbox(column, 48px);
-            margin: 0 0 5vh;
-        }
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 24px;
+        column-gap: 48px;
     }
 
-    &__title{
-        position: sticky;
-        top: 32px;
+    &__header{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+        margin: 0 0 24px;
     }
 
     &__item{

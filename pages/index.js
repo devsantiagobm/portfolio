@@ -33,37 +33,13 @@ export default function Home() {
                         <Link href="/profile" className="button">
                             {t("index.first_button")}
                         </Link>
-                        <a href={t("index.resume_link")} className="button hero__resume" third="true" target="_blank" rel="noreferrer">
+                        <a href={"/santiago_barrera_cv.pdf"} className="button hero__resume" third="true" target="_blank" rel="noreferrer">
                             {t("index.second_button")}
                             <ArrowIcon className="hero__arrow"></ArrowIcon>
                         </a>
                     </div>
                 </ShowIn>
 
-                <div className="hero__about">
-                    <div className="hero__about-column">
-                        <span className="hero__about-title">
-                            {t("index.about_text")}
-                        </span>
-                        <Link href="/profile" className="button hero__about-link"
-                        >{t("index.about_button")}</Link>
-                    </div>
-
-                    <ul className="hero__about-column hero__about-column--list">
-                        <li className="hero__about-item">
-                            <span>{t("index.from_text")}</span>
-                            <span>Colombia</span>
-                        </li>
-                        <li className="hero__about-item">
-                            <span>{t("index.location_text")}</span>
-                            <span>Medellin</span>
-                        </li>
-                        <li className="hero__about-item">
-                            <span>{t("index.age_text")}</span>
-                            <span>18</span>
-                        </li>
-                    </ul>
-                </div>
             </div>
 
             <div className="hero__image">
@@ -75,7 +51,7 @@ export default function Home() {
                 </ShowIn>
                 <picture className="hero__picture">
                     <ShowIn>
-                        <Image src="/my-image.png" alt="Santiago's image" width={500} height={600} className="hero__portrait" />
+                        <img src="/my-image.png" alt="Santiago's image" className="hero__portrait" />
                     </ShowIn>
                 </picture>
 
@@ -83,7 +59,7 @@ export default function Home() {
                     <div className="hero__box">
                         <Ball/>
                         <Ball type="second"/>
-                    </div>
+                    </div> 
                 </div>
             </div>
         </div>
@@ -95,7 +71,7 @@ function Ball({ type }) {
     const technologies = originalTechnologies(t)
     const firstIndex = type === "second" ? 1 : 0
     const [balls, setBalls] = useState([technologies[firstIndex]])
-    const techLength = technologies.length
+    const techLength = technologies.length 
 
     useEffect(() => {
         const interval = setInterval(() => {

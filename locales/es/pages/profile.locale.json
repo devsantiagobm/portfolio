@@ -1,19 +1,18 @@
 {
-    "profile":{
+    "profile": {
         "title": "Perfil",
+        "subtitle": "Conoce mi trayectoria como desarrollador, mis motivaciones y qué tipo de proyectos puedo construir",
 
         "about_me": "Sobre mí",
-        "about_me_text": "Soy Santiago Barrera Muñoz, un desarrollador fullstack apasionado. Principalmente me enfoco en frontend, pero también abrazo retos backend. Resido en Medellín, Colombia, estudiando Análisis y Desarrollo de Software en el SENA.\n\nA pesar de la falta de experiencia formal, he creado diversos proyectos significativos que reflejan mi habilidad para soluciones prácticas y mi constante deseo de aprendizaje en el mundo del desarrollo web. Estoy emocionado por seguir creciendo en esta industria emocionante.",
+        "about_me_text": "Soy Santiago Barrera Muñoz, un desarrollador frontend apasionado con experiencia tanto como freelancer como en entornos corporativos. Resido en Medellín, Colombia, y completé mis estudios en Análisis y Desarrollo de Software en el SENA.\n\nMe especializo en la construcción de interfaces atractivas, funcionales y orientadas al usuario. Me motiva la constante evolución del desarrollo web y disfruto enfrentar nuevos desafíos que me permitan seguir creciendo profesional y técnicamente.",
 
         "why_develop": "¿Por qué y cómo aprendí a desarrollar?",
-        "why_develop_text": "Aprendí a desarrollar porque me apasiona crear soluciones tecnológicas. Inicialmente, me sentí abrumado por las opciones y el camino a seguir en el desarrollo. Sin embargo, descubrí que la habilidad de buscar y aprender era fundamental. Durante mis 4 años de aprendizaje, enfoqué mis esfuerzos en investigar, explorar cursos y sumergirme en documentación. \n\nEsta constante búsqueda me permitió adquirir habilidades tanto en frontend como en backend. Cada proyecto que construí, desde una aplicación de reseñas hasta una plataforma de viajes espaciales, me brindó experiencia práctica y consolidó mi pasión por el desarrollo web.",
-
+        "why_develop_text": "Aprendí a desarrollar impulsado por una profunda curiosidad y pasión por crear soluciones tecnológicas útiles. Al principio, el mundo del desarrollo parecía abrumador, pero descubrí que saber buscar y aprender era clave.\n\nDurante varios años de estudio y práctica constante, fui fortaleciendo mis habilidades a través de cursos, documentación, proyectos reales y trabajo profesional. Desde aplicaciones personales hasta soluciones para clientes reales, cada experiencia ha contribuido a mi formación como desarrollador comprometido y autodidacta.",
 
         "current_employment": "Situación laboral actual",
-        "current_employment_text": "Aunque carezco de experiencia laboral formal, cuento con una sólida experiencia en el desarrollo de aplicaciones. En este momento, estoy en búsqueda de oportunidades que me permitan aplicar y ampliar mis habilidades. \n\nEstoy dispuesto a considerar distintos roles que impliquen trabajar en el desarrollo de productos valiosos y contribuir al éxito del equipo de manera proactiva. Mi enfoque principal es adquirir experiencia práctica y aportar de manera efectiva a un entorno de trabajo dinámico.",
+        "current_employment_text": "Actualmente me encuentro en búsqueda activa de nuevas oportunidades laborales donde pueda seguir creciendo como profesional, asumir nuevos retos y aportar con mis conocimientos y experiencia.\n\nEstoy abierto a roles en los que pueda trabajar en el desarrollo de productos útiles, aportar al equipo y seguir desarrollándome en un entorno dinámico e innovador.",
 
         "what_i_build": "¿Qué puedo construir?",
-        "what_i_build_text": "Mis habilidades más sólidas como desarrollador inicialmente se centraron en el ámbito del desarrollo front-end. Entre estas habilidades se incluyen la maquetación, la creación de interfaces receptivas, la implementación de la lógica y la gestión del estado de una aplicación, así como el mantenimiento continuo y la generación de valor constante en un producto.\n\nSin embargo, es fundamental destacar que mi capacidad como desarrollador también abarca tanto el desarrollo back-end como el front-end. En el área del back-end, puedo gestionar API REST, autenticación de usuarios, manipulación de archivos y otras funcionalidades esenciales. Mi enfoque en el back-end incluye habilidades en tecnologías como Laravel y Node.js, así como el uso de bases de datos como MySQL y MongoDB.\n\nAunque las palabras pueden expresar mucho, creo que un proyecto habla aún más. Por ello, te invito a explorar mis trabajos y ver de primera mano cómo he aplicado mis habilidades en diversos proyectos.\n\nEste enfoque holístico, tanto en el front-end como en el back-end, me permite brindar soluciones completas y valiosas en cada etapa del desarrollo."
-
+        "what_i_build_text": "Puedo desarrollar aplicaciones frontend completas, enfocadas en ofrecer experiencias visuales atractivas e intuitivas para el usuario. También tengo conocimientos en backend con Node.js y bases de datos como MySQL o MongoDB, lo cual me permite implementar funcionalidades clave como APIs, autenticación y manejo de datos."
     }
 }

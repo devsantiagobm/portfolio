@@ -1,13 +1,17 @@
 {
     "projects": {
         "title": "Projects",
-        "subtitle": "Outstanding projects and development experiences",
+        "subtitle": "Highlighted personal projects and experiences that reflect my growth as a developer",
         "elements": {
             "reviews": {
                 "description": "An outstanding fullstack application that stands out among my finest achievements. Explore an extensive catalog of movies and series, including details such as release year, directors, cast, and earnings. I provide a space for opinions and reviews, allowing you to share your passion for films like 'Pulp Fiction'. All supported by a robust user and session system for an interactive experience."
             },
             "galleria": {
                 "description": "An application inspired by the FrontendMentor website. Explore a virtual gallery to appreciate and delve into the iconic masterpieces of history, including 'Mona Lisa,' 'Starry Night,' 'Guernica,' 'The Swing,' and more."
+            },
+
+            "devlinks": {
+                "description": "An application developed as part of Frontend Mentor's 'Link-sharing app' challenge. It allows users to create and customize profiles with links to their favorite platforms. Features include image uploads, form validation, drag-and-drop link reordering, and real-time profile preview. This full-stack application provides a comprehensive link management experience."
             },
             "audiophile": {
                 "description": "This e-commerce prototype, also derived from the FrontendMentor website, offers an appealing interface to explore products from a headphones and speakers store. Experience the buying simulation with an integrated shopping cart."
