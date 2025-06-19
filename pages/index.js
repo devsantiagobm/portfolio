@@ -7,7 +7,9 @@ import Link from "next/link"
 import { useTranslation } from "react-i18next"
 
 export default function Home() {
-    const [t] = useTranslation();
+    const { t, i18n: { language } } = useTranslation();
+
+
 
     return (
         <div className="hero" id="home">
@@ -33,7 +35,7 @@ export default function Home() {
                         <Link href="/profile" className="button">
                             {t("index.first_button")}
                         </Link>
-                        <a href={"/santiago_barrera_cv.pdf"} className="button hero__resume" third="true" target="_blank" rel="noreferrer">
+                        <a href={language === "es" ? "/santiago_barrera_cv.pdf" : "/santiago_barrera_cv-english.pdf"} className="button hero__resume" third="true" target="_blank" rel="noreferrer">
                             {t("index.second_button")}
                             <ArrowIcon className="hero__arrow"></ArrowIcon>
                         </a>
@@ -57,9 +59,9 @@ export default function Home() {
 
                 <div className="hero__tech">
                     <div className="hero__box">
-                        <Ball/>
-                        <Ball type="second"/>
-                    </div> 
+                        <Ball />
+                        <Ball type="second" />
+                    </div>
                 </div>
             </div>
         </div>
@@ -71,7 +73,7 @@ function Ball({ type }) {
     const technologies = originalTechnologies(t)
     const firstIndex = type === "second" ? 1 : 0
     const [balls, setBalls] = useState([technologies[firstIndex]])
-    const techLength = technologies.length 
+    const techLength = technologies.length
 
     useEffect(() => {
         const interval = setInterval(() => {

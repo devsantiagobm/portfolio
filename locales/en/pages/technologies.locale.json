@@ -138,14 +138,14 @@
                 "third_content": "It is a free platform that offers a wide variety of services and useful tools for mobile or web development. It is also easy to use and learn, with a faster learning curve than a back-end programming language. Although, obviously, this comes with limitations.",
                 "description": "Firebase is a cloud platform that assists developers in building web and mobile applications. It provides tools for authentication, real-time data storage, and more."
             },
-            "tailwind": {
-                "first_title": "What can I do with ",
-                "first_content": "TailwindCSS is another technique or technology for styling web pages. With it, I can create styles for 100% of my application. Although it is not my favorite option for creating styles, I always consider it if the project is not going to grow too much.",
-                "second_title": "What have I built with ",
-                "second_content": "With the help of this tool, I have created several basic applications, such as forms, filters, CRMs, among others.",
-                "third_title": "Why I use ",
-                "third_content": "TailwindCSS is a technology that provides productivity and flexibility when writing CSS code. In addition, its limitations make it easier to create responsive designs.",
-                "description": "Tailwind is an interface design framework that simplifies layout and styling on websites. It offers predefined classes that make quick and responsive design easier."
+            "typescript": {
+                "first_title": "¿Qué puedo hacer con ",
+                "first_content": "TypeScript me permite desarrollar aplicaciones web robustas, escalables y mantenibles. Gracias a su tipado estático, detecto errores antes de ejecutar el código y puedo trabajar con mayor confianza en proyectos grandes.",
+                "second_title": "¿Qué he construido con ",
+                "second_content": "He utilizado TypeScript en aplicaciones construidas con frameworks como React, NextJS y Angular. Con él desarrollé dashboards administrativos, formularios complejos con validaciones, y funcionalidades compartidas entre frontend y backend.",
+                "third_title": "¿Por qué utilizo ",
+                "third_content": "Uso TypeScript porque mejora la calidad del código JavaScript, facilita el trabajo en equipo y ayuda a prevenir errores comunes. Su integración con editores y su compatibilidad con JavaScript lo hacen una herramienta poderosa para cualquier proyecto moderno.",
+                "description": "TypeScript es un superset de JavaScript que añade tipado estático y otras características avanzadas. Permite escribir código más seguro, claro y mantenible, ideal para el desarrollo profesional de aplicaciones modernas."
             },
             "github": {
                 "first_title": "What can I do with ",

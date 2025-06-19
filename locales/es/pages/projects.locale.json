@@ -15,6 +15,9 @@
             "audiophile": {
                 "description": "Este prototipo de comercio electrónico, también basado en el sitio web de FrontendMentor, presenta una interfaz atractiva donde puedes explorar los productos de una tienda de auriculares y altavoces. Experimenta la simulación de compra con un carrito de compras integrado."
             },
+            "notetask": {
+                "description": "Esta aplicación de notas combina funcionalidad y diseño, con una interfaz cuidada, animaciones fluidas y transiciones dinámicas. Ofrece modos claro y oscuro, selección de fuentes y una experiencia totalmente personalizada pensada para el uso diario."
+            },
             "space": {
                 "description": "Explora datos sobre una empresa ficticia de viajes espaciales: desde la duración del viaje hasta el destino, junto con el equipo que garantiza tu seguridad. ¡Reserva tus boletos y alcanza la luna!"
             },

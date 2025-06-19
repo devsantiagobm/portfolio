@@ -1,4 +1,4 @@
-import { Javascript, React, Html, Css, Sass, Nextjs, Angular, Mysql,  Tailwind, Github, Git,Node, Express} from "data/technologiesIcons.data"
+import { Javascript, React, Html, Css, Sass, Nextjs, Angular, Mysql, Tailwind, Github, Git, Node, Express, Typescript } from "data/technologiesIcons.data"
 
 function technologies(t) {
     return [
@@ -85,6 +85,27 @@ function technologies(t) {
                 },
             ],
             description: t("technologies.elements.angular.description"),
+        },
+        {
+            name: "Typescript",
+            id: "lfm5qdC0T3",
+            Icon: Typescript,
+            color: "#3178c6",
+            information: [
+                {
+                    title: t("technologies.elements.typescript.first_title"),
+                    content: t("technologies.elements.typescript.first_content")
+                },
+                {
+                    title: t("technologies.elements.typescript.second_title"),
+                    content: t("technologies.elements.typescript.second_content")
+                },
+                {
+                    title: t("technologies.elements.typescript.third_title"),
+                    content: t("technologies.elements.typescript.third_content")
+                },
+            ],
+            description: t("technologies.elements.typescript.description"),
         },
         {
             name: "NodeJS",
@@ -212,27 +233,7 @@ function technologies(t) {
             ],
             description: t("technologies.elements.sass.description"),
         },
-        {
-            name: "TailwindCSS",
-            id: "lfm5qdC0T3",
-            Icon: Tailwind,
-            color: "#06b6d4",
-            information: [
-                {
-                    title: t("technologies.elements.tailwind.first_title"),
-                    content: t("technologies.elements.tailwind.first_content")
-                },
-                {
-                    title: t("technologies.elements.tailwind.second_title"),
-                    content: t("technologies.elements.tailwind.second_content")
-                },
-                {
-                    title: t("technologies.elements.tailwind.third_title"),
-                    content: t("technologies.elements.tailwind.third_content")
-                },
-            ],
-            description: t("technologies.elements.tailwind.description"),
-        },
+
         {
             name: "Git",
             id: "AcJz45G0ab",

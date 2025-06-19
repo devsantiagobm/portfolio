@@ -138,14 +138,14 @@
                 "third_content": "Es una plataforma gratuita que ofrece una amplia variedad de servicios y herramientas útiles para el desarrollo móvil o web. También es fácil de usar y aprender, con una curva de aprendizaje más rápida que un lenguaje de programación backend. Aunque, obviamente, esto viene con limitaciones.",
                 "description": "Firebase es una plataforma en la nube que ayuda a desarrolladores a construir aplicaciones web y móviles. Proporciona herramientas para autenticación, almacenamiento de datos en tiempo real y más."
             },
-            "tailwind": {
+            "typescript": {
                 "first_title": "¿Qué puedo hacer con ",
-                "first_content": "TailwindCSS es otra técnica o tecnología para dar estilo a páginas web. Con ella puedo crear estilos para el 100% de mi aplicación. Aunque no es mi opción favorita para crear estilos, siempre la considero si el proyecto no va a crecer mucho.",
+                "first_content": "TypeScript me permite desarrollar aplicaciones web robustas, escalables y mantenibles. Gracias a su tipado estático, detecto errores antes de ejecutar el código y puedo trabajar con mayor confianza en proyectos grandes.",
                 "second_title": "¿Qué he construido con ",
-                "second_content": "Con la ayuda de esta herramienta, he creado varias aplicaciones básicas, como formularios, filtros, CRM, entre otros.",
+                "second_content": "He utilizado TypeScript en aplicaciones construidas con frameworks como React, NextJS y Angular. Con él desarrollé dashboards administrativos, formularios complejos con validaciones, y funcionalidades compartidas entre frontend y backend.",
                 "third_title": "¿Por qué utilizo ",
-                "third_content": "TailwindCSS es una tecnología que te brinda productividad y flexibilidad al escribir código CSS. Además, sus limitaciones facilitan la creación de diseños responsivos.",
-                "description": "Tailwind es un marco de diseño de interfaz que simplifica la creación de diseños y estilos en sitios web. Ofrece clases predefinidas que facilitan el diseño rápido y adaptable."
+                "third_content": "Uso TypeScript porque mejora la calidad del código JavaScript, facilita el trabajo en equipo y ayuda a prevenir errores comunes. Su integración con editores y su compatibilidad con JavaScript lo hacen una herramienta poderosa para cualquier proyecto moderno.",
+                "description": "TypeScript es un superset de JavaScript que añade tipado estático y otras características avanzadas. Permite escribir código más seguro, claro y mantenible, ideal para el desarrollo profesional de aplicaciones modernas."
             },
             "github": {
                 "first_title": "¿Qué puedo hacer con ",

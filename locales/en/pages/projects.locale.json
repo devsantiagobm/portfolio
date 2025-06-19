@@ -16,6 +16,9 @@
             "audiophile": {
                 "description": "This e-commerce prototype, also derived from the FrontendMentor website, offers an appealing interface to explore products from a headphones and speakers store. Experience the buying simulation with an integrated shopping cart."
             },
+            "notetask": {
+                "description": "This note-taking app combines functionality with aesthetics, offering a refined UI enhanced by fluid animations and dynamic transitions. It includes light and dark themes, customizable fonts, and a fully personalized experience designed for intuitive daily use."
+            },
             "space": {
                 "description": "Discover insights about a fictional space travel company, from trip duration to destination, and the team ensuring your safe journey. Book your tickets now and reach for the moon!"
             },

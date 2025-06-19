@@ -1,4 +1,4 @@
-import { Javascript, React, Html, Css, Sass, Nextjs, Styled, Pug, Figma, Mysql, Php, Firebase, Tailwind, Github, Git, Npm, Laravel, Node, Express } from "data/technologiesIcons.data"
+import { Javascript, React, Html, Css, Sass, Nextjs, Styled, Pug, Figma, Mysql, Php, Firebase, Github, Git, Npm, Laravel, Node, Express, Typescript } from "data/technologiesIcons.data"
 
 
 
@@ -72,12 +72,6 @@ const technologiesIcons = {
         color: "#F5820D",
 
     },
-    tailwind: {
-        name: "TailwindCSS",
-        id: 13,
-        Icon: Tailwind,
-        color: "#06b6d4",
-    },
     github: {
         link: "",
         name: "Github",
@@ -115,9 +109,15 @@ const technologiesIcons = {
         Icon: Express,
         color: "#303030",
     },
+    typescript: {
+        name: "Typescript",
+        id: 20,
+        Icon: Typescript,
+        color: "#3178c6",
+    },
 }
 
-const { react, javascript, html, css, sass, nextjs, mysql,  node, express} = technologiesIcons
+const { react, javascript, html, css, sass, nextjs, mysql, node, express, typescript } = technologiesIcons
 
 function projects(t) {
     return [
@@ -135,15 +135,7 @@ function projects(t) {
             image: "devlinks.png",
             github: "devlinks",
             link: "http://devlinks-ten.vercel.app/auth/login",
-            technologies: [react, javascript, mysql, nextjs, sass, node, express],
-        },
-        {
-            name: "Galleria",
-            description:t("projects.elements.galleria.description"),
-            image: "galleria.png",
-            github: "galleria",
-            link: "https://galleria-indol.vercel.app",
-            technologies: [react, javascript, nextjs, sass]
+            technologies: [react, typescript, javascript, mysql, nextjs, sass, node, express],
         },
         {
             name: "Audiophile",
@@ -153,6 +145,23 @@ function projects(t) {
             link: "https://devsantiagobm.github.io/audiophile",
             technologies: [react, javascript, sass, html, css]
         },
+        {
+            name: "NoteTask",
+            description: t("projects.elements.notetask.description"),
+            image: "notetask.png",
+            github: "note-taking",
+            link: "https://note-taking-chi-plum.vercel.app/",
+            technologies: [react, typescript, javascript, sass, html, css]
+        },
+        {
+            name: "Galleria",
+            description: t("projects.elements.galleria.description"),
+            image: "galleria.png",
+            github: "galleria",
+            link: "https://galleria-indol.vercel.app",
+            technologies: [react, javascript, nextjs, sass]
+        },
+
         {
             name: "Space 2.0",
             description: t("projects.elements.space.description"),
@@ -185,7 +194,7 @@ function projects(t) {
             name: "Sneakers eccomerce",
             description: t("projects.elements.sneakers.description"),
             image: "sneakers.png",
-            github: "countries",
+            github: "sneakers",
             link: "https://devsantiagobm.github.io/sneakers",
             technologies: [javascript, html, css]
         },
